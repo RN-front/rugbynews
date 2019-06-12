@@ -1,6 +1,7 @@
 {
   "name": "rugby-news-front",
   "version": "1.0.0",
+  "homepage": "https://rn-front.github.io/rugbynews",
   "description": "regby news",
   "main": "index.js",
   "scripts": {
