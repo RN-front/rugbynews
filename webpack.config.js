@@ -6,6 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
+const Dotenv = require('dotenv-webpack');
 let conf = {};
 
 module.exports = (env, options) => {
@@ -38,7 +39,7 @@ module.exports = (env, options) => {
                     exclude: '/node_modules/',
                     loader: "babel-loader",
                     query: {
-                        presets: ['@babel/preset-env','@babel/preset-react']
+                        presets: ['@babel/preset-env', '@babel/preset-react']
                     },
                 },
                 {
@@ -47,50 +48,50 @@ module.exports = (env, options) => {
                         fallback: "style-loader",
                         use: devMode ? [
                             {
-                                loader : 'css-loader',
-                                options : {
+                                loader: 'css-loader',
+                                options: {
                                     sourceMap: true
                                 }
                             },
                             {
-                                loader : 'sass-loader',
-                                options : {
+                                loader: 'sass-loader',
+                                options: {
                                     sourceMap: true
                                 }
                             }] : [
-                             'css-loader',
+                            'css-loader',
                             {
                                 loader: 'postcss-loader',
                                 options: {
                                     plugins: [
                                         autoprefixer({
-                                            browsers:['ie >= 8', 'last 4 version']
+                                            browsers: ['ie >= 8', 'last 4 version']
                                         }),
                                         cssnano()
                                     ]
                                 }
                             }, 'sass-loader'
-                            ]
+                        ]
                     })
                 },
                 {
                     test: /\.(eot|svg|ttf|woff|woff2)$/,
-                    loader : "file-loader",
-                    query : {
+                    loader: "file-loader",
+                    query: {
                         name: '../fonts/[name].[ext]',
                         emitFile: false,
-                        publicPath: function(url) {
+                        publicPath: function (url) {
                             return url.replace(/dist/, '')
                         }
                     }
                 },
                 {
                     test: /\.(png|jpg|gif)$/,
-                    loader : "file-loader",
-                    query : {
+                    loader: "file-loader",
+                    query: {
                         name: '../img/[name].[ext]',
                         emitFile: false,
-                        publicPath: function(url) {
+                        publicPath: function (url) {
                             return url.replace(/dist/, '')
                         }
                     }
@@ -98,24 +99,30 @@ module.exports = (env, options) => {
             ]
         },
         plugins: [
-            devMode ? false :  new CleanWebpackPlugin(),
+            devMode ? false : new CleanWebpackPlugin(),
             new ExtractTextPlugin("css/styles.css"),
             devMode ? new webpack.SourceMapDevToolPlugin({
                 filename: devMode ? "[file].map" : '',
                 exclude: ["/vendor/"]
             }) : false,
             new CopyWebpackPlugin([
-                {from:'src/img',to:'img'},
-                {from:'src/fonts',to:'fonts'},
-                {from:'src/robots.txt',to:''},
-                {from:'src/sitemap.xml',to:''}
+                {from: 'src/img', to: 'img'},
+                {from: 'src/fonts', to: 'fonts'},
+                {from: 'src/robots.txt', to: ''},
+                {from: 'src/sitemap.xml', to: ''}
                 // {from:'src/index.html',to: ''}
             ]),
             new HtmlWebpackPlugin({
                 template: 'src/index.html'
+            }),
+            devMode ? new Dotenv({
+                path: './.env'
+            }) : new Dotenv({
+                path: './.envdev'
             })
+
         ].filter(Boolean),
 
-        devtool : (devMode) ? 'cheap-module-eval-source-map' : false
+        devtool: (devMode) ? 'cheap-module-eval-source-map' : false
     };
 };

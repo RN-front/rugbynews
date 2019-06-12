@@ -32,7 +32,7 @@ class MainRouting extends React.Component {
 
     render() {
         return (
-            <BrowserRouter basename="/rugbynews">
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <ScrollToTop>
                     <Switch>
                         <Fragment>
