@@ -1,0 +1,9 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /account/
+
+
+Host: https://lifespulse.com
+Sitemap: https://lifespulse.com/sitemap.xml
