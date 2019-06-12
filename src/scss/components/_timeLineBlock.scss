@@ -1,4 +1,4 @@
-.header-time-line-section-wrapper {
+.time-line-section-wrapper {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -10,7 +10,7 @@
     text-transform: uppercase;
     margin-right: 11px;
   }
-  .header-time-line-section__check {
+  .time-line-section__check {
     width: 39px;
     height: 17px;
     border-radius: 8px;
@@ -31,5 +31,11 @@
     .checked {
       left: 23px;
     }
+  }
+}
+
+@media only screen and (max-width: $deviceWidth) {
+  .time-line-section-wrapper {
+    display: none;
   }
 }
