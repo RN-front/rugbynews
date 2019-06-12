@@ -8,9 +8,9 @@ class Header extends React.Component {
         document.querySelector('#app').classList.toggle('menu-opened');
         document.querySelector('.header__navToggle').classList.toggle('navActive');
     }
-    toggleCheck() {
-        document.querySelector('.header-time-line-section__check div').classList.toggle('checked');
-    }
+    // toggleCheck() {
+    //     document.querySelector('.header-time-line-section__check div').classList.toggle('checked');
+    // }
     toggleCheckMob() {
         document.querySelector('.header-time-line-section__check.mob-check div').classList.toggle("checked-mob-line");
     }
@@ -97,16 +97,16 @@ class Header extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="header-time-line-section">
-                            <div className="container">
-                                <div className="header-time-line-section-wrapper">
-                                    <p>Time line</p>
-                                    <div className="header-time-line-section__check"  onClick={this.toggleCheck}>
-                                        <div className=""></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        {/*<div className="header-time-line-section">*/}
+                            {/*<div className="container">*/}
+                                {/*<div className="header-time-line-section-wrapper">*/}
+                                    {/*<p>Time line</p>*/}
+                                    {/*<div className="header-time-line-section__check"  onClick={this.toggleCheck}>*/}
+                                        {/*<div className=""></div>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
                     </div>
                     <div className="header-device">
                         <div className="container">

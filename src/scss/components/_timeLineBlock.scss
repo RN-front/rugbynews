@@ -1,0 +1,35 @@
+.header-time-line-section-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 0;
+  p {
+    color: $main-text-color;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 11px;
+  }
+  .header-time-line-section__check {
+    width: 39px;
+    height: 17px;
+    border-radius: 8px;
+    border: 1px solid $bg-eight-color;
+    background-color: $bg-white-color;
+    display: inline-block;
+    position: relative;
+    div {
+      transition: .5s;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      background-color: $bg-seven-color;
+    }
+    .checked {
+      left: 23px;
+    }
+  }
+}

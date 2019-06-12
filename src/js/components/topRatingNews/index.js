@@ -9,56 +9,62 @@ class TopRatingNews extends React.Component {
                 <div className="top-rating-news-block">
                     <div className="top-rating-news-block__title">
                         <h4>TOP Rating News</h4>
+                        <Link to='/' className="top-rating-news-block__title-link"></Link>
                     </div>
                     <div className="top-rating-news-block__list">
                         <div className="top-rating-news-block__list__item">
                             <Link to='/'>Man UTD January Transfer life</Link>
                             <div className="top-rating-news-block__info">
-                                <p>
-                                    <img src="img/star_icon.png" alt="star_icon"/>
-                                    <img src="img/time_icon.png" alt="time_icon"/>2h<span>Rugby Union</span>
-                                    <img src="img/chat-bubble_color.png" alt="chat-bubble_color"/><span>27</span>
-                                </p>
+                                    <span className="icon-star"></span>
+                                    <img src="img/time_icon.png" alt="time-icon"/>
+                                    <span className="time-ago">2h</span>
+                                    <span className="source-web">Rugby Union</span>
+                                    <img src="img/chat-bubble.png" alt="chat bubble"/>
+                                    <span className="number-comments">27</span>
                             </div>
                         </div>
                         <div className="top-rating-news-block__list__item">
                             <Link to='/'>Man UTD January Transfer life</Link>
                             <div className="top-rating-news-block__info">
-                                <p>
-                                    <img src="img/star_icon.png" alt="star_icon"/>
-                                    <img src="img/time_icon.png" alt="time_icon"/>2h<span>Rugby Union</span>
-                                    <img src="img/chat-bubble_color.png" alt="chat-bubble_color"/><span>27</span>
-                                </p>
+                                <span className="icon-check"></span>
+                                <img src="img/time_icon.png" alt="time-icon"/>
+                                <span className="time-ago">2h</span>
+                                <span className="source-web">Sport News</span>
+                                <img src="img/chat-bubble.png" alt="chat bubble"/>
+                                <span className="number-comments">27</span>
                             </div>
                         </div>
                         <div className="top-rating-news-block__list__item">
                             <Link to='/'>Man UTD January Transfer life</Link>
                             <div className="top-rating-news-block__info">
-                                <p>
-                                    <img src="img/star_icon.png" alt="star_icon"/>
-                                    <img src="img/time_icon.png" alt="time_icon"/>2h<span>Rugby Union</span>
-                                    <img src="img/chat-bubble_color.png" alt="chat-bubble_color"/><span>27</span>
-                                </p>
+                                <span className="icon-play"></span>
+                                <img src="img/time_icon.png" alt="time-icon"/>
+                                <span className="time-ago">2h</span>
+                                <span className="source-web">BBC Sport </span>
+                                <img src="img/chat-bubble.png" alt="chat bubble"/>
+                                <span className="number-comments">27</span>
                             </div>
                         </div>
                         <div className="top-rating-news-block__list__item">
                             <Link to='/'>Man UTD January Transfer life</Link>
                             <div className="top-rating-news-block__info">
-                                <p>
-                                    <img src="img/star_icon.png" alt="star_icon"/>
-                                    <img src="img/time_icon.png" alt="time_icon"/>2h<span>Rugby Union</span>
-                                    <img src="img/chat-bubble_color.png" alt="chat-bubble_color"/><span>27</span>
-                                </p>
+                                <span className="icon-video"></span>
+                                <img src="img/time_icon.png" alt="time-icon"/>
+                                <span className="time-ago">2h</span>
+                                <span className="source-web">BBC Sport Sport </span>
+                                <img src="img/chat-bubble.png" alt="chat bubble"/>
+                                <span className="number-comments">27</span>
                             </div>
                         </div>
                         <div className="top-rating-news-block__list__item">
                             <Link to='/'>Man UTD January Transfer life</Link>
                             <div className="top-rating-news-block__info">
-                                <p>
-                                    <img src="img/star_icon.png" alt="star_icon"/>
-                                    <img src="img/time_icon.png" alt="time_icon"/>2h<span>Rugby Union</span>
-                                    <img src="img/chat-bubble_color.png" alt="chat-bubble_color"/><span>27</span>
-                                </p>
+                                <span className="icon-video"></span>
+                                <img src="img/time_icon.png" alt="time-icon"/>
+                                <span className="time-ago">2h</span>
+                                <span className="source-web">BBC Sport </span>
+                                <img src="img/chat-bubble.png" alt="chat bubble"/>
+                                <span className="number-comments">27</span>
                             </div>
                         </div>
                     </div>
