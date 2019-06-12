@@ -27,6 +27,7 @@ class MainRouting extends React.Component {
 
     componentDidMount() {
       console.log("app is mounting")
+        console.log("This is the process.env", process.env.PUBLIC_URL);
     }
 
     render() {
