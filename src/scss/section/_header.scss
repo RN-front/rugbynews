@@ -194,7 +194,7 @@
     .header-device {
       display: block;
       width: 100%;
-      height: 95px;
+      height: 80px;
       background-color: $bg-second-color;
       .container {
         max-width: none;
@@ -203,11 +203,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 95px;
+        height: 80px;
         .header__navToggle {
           display: flex;
-          width: 70px;
-          height: 65px;
+          width: 60px;
+          height: 60px;
           cursor: pointer;
           position: relative;
           flex-direction: column;
@@ -231,9 +231,8 @@
           }
           span {
             display: block;
-            width: 43px;
+            width: 38px;
             height: 4px;
-            margin-bottom: 8px;
             background-color: $bg-white-color;
             border-radius: 4px;
             position: absolute;
@@ -241,13 +240,13 @@
             transform: rotate(0);
             transition: .2s ease-in-out;
             &:nth-child(1) {
-              top: 30%;
+              top: 34%;
             }
             &:nth-child(2), &:nth-child(3) {
               top: 50%;
             }
             &:nth-child(4) {
-              top: 70%;
+              top: 68%;
               margin-bottom: 0;
             }
           }
@@ -257,17 +256,20 @@
             display: block;
             height: 30px;
             img {
-              height: 30px;
+              height: 25px;
             }
           }
         }
         .header-search-section {
-          height: 65px;
-          width: 60px;
+          height: 60px;
+          width: 54px;
           display: flex;
           align-items: center;
           justify-content: flex-end;
           border-left: 1px solid $bg-main-color;
+          img {
+            height: 35px;
+          }
         }
         .navigation-side-mobile {
           display: block;
@@ -281,7 +283,7 @@
           right: 0;
           position: fixed;
           left: 0;
-          top: 94px;
+          top: 79px;
 
           &.active-nav-mobile {
             transition: height .7s;

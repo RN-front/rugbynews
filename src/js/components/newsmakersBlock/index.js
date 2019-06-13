@@ -10,27 +10,34 @@ class NewsmakersBlock extends React.Component {
                 <div className="newsmakers-section">
                     <h2>Newsmakers</h2>
                     <div className="short-newsmakers-block">
-                        <img src="img/JMP_Bristol_Rugby_v_Bedford_Blues_RT0307.jpg" alt="news photo"/>
+                        <div className="short-newsmakers-block__img-block">
+
+                        </div>
                         <div className="list-news">
                             <div className="select-news">
                                 <Link to='/'>Man UTD January Transfer life</Link>
                                 <p><img src="img/time_icon.png" alt=""/>2h<span>Rugby Union</span></p>
+                                <img src="img/JMP_Bristol_Rugby_v_Bedford_Blues_RT0307.jpg" alt="news photo"/>
                             </div>
                             <div className="select-news">
                                 <Link to='/'>Man UTD January Transfer life</Link>
                                 <p><img src="img/time_icon.png" alt=""/>2h<span>Rugby Union</span></p>
+                                <img src="img/QPR.jpg" alt="news photo"/>
                             </div>
                             <div className="select-news">
                                 <Link to='/'>Man UTD January Transfer life</Link>
                                 <p><img src="img/time_icon.png" alt=""/>2h<span>Rugby Union</span></p>
+                                <img src="img/987a9673f3aa09843438f805362f6454.jfif" alt="news photo"/>
                             </div>
                             <div className="select-news">
                                 <Link to='/'>Man UTD January Transfer life</Link>
                                 <p><img src="img/time_icon.png" alt=""/>2h<span>Rugby Union</span></p>
+                                <img src="img/37.jpg" alt="news photo"/>
                             </div>
                             <div className="select-news">
                                 <Link to='/'>Man UTD January Transfer life</Link>
                                 <p><img src="img/time_icon.png" alt=""/>2h<span>Rugby Union</span></p>
+                                <img src="img/images.jfif" alt="news photo"/>
                             </div>
                         </div>
                     </div>
