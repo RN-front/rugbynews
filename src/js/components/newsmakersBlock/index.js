@@ -1,6 +1,7 @@
 import React from "react";
 import Scrollbar from "react-scrollbars-custom";
 import {Link} from "react-router-dom";
+import { Scrollbars } from 'react-custom-scrollbars';
 
 class NewsmakersBlock extends React.Component {
 
@@ -42,7 +43,8 @@ class NewsmakersBlock extends React.Component {
                         </div>
                     </div>
                     <div className="scroll-newsmakers-block">
-                        <Scrollbar className="list-news">
+                        {/*<Scrollbar className="list-news">*/}
+                            <Scrollbars className="list-news" hideTracksWhenNotNeeded={true}>
                             <div className="scroll-select-news">
                                 <div className="scroll-select-news__img">
                                     <img src="img/JMP_Bristol_Rugby_v_Bedford_Blues_RT0307.jpg" alt=""/>
@@ -188,7 +190,7 @@ class NewsmakersBlock extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                        </Scrollbar>
+                        </Scrollbars>
                     </div>
                     <div className="show-more-news">
                         <button>More Recent News <span>&rarr;</span></button>

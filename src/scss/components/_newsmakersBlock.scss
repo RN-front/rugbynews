@@ -29,12 +29,12 @@
     }
 
     .list-news {
-      padding: 0 18px;
+      padding: 0 18px 0 0;
       width: 375px;
 
       .select-news {
         border-bottom: 1px solid $bg-four-color;
-        padding: 15px 0;
+        padding: 15px 0 15px 18px;
 
         &:first-child > img {
           display: block;
@@ -203,6 +203,7 @@
       height: auto;
       flex-direction: column;
       justify-content: center;
+      height: 100%;
 
       .short-newsmakers-block__img-block {
         width: 100%;
@@ -248,6 +249,9 @@
           }
         }
       }
+    }
+    .scroll-newsmakers-block {
+      height: 100%;
     }
   }
 }
