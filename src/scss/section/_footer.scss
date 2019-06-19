@@ -88,8 +88,8 @@
           border-bottom: 2px solid $main-nine-text-color;
 
           p {
-            padding: 30px 0;
-            font-size: 28px;
+            padding: 20px 0;
+            font-size: 22px;
             font-weight: 700;
             cursor: pointer;
             margin-bottom: 0;
@@ -99,11 +99,11 @@
               content: "";
               position: absolute;
               right: 5px;
-              top: 38px;
+              top: 26px;
               bottom: 0;
               transform: rotate(45deg);
-              width: 18px;
-              height: 18px;
+              width: 14px;
+              height: 14px;
               border-right: 2px solid #0091ea;
               border-top: 2px solid #0091ea;
               transition: .3s;
@@ -115,7 +115,7 @@
 
             li {
               a {
-                font-size: 22px;
+                font-size: 18px;
               }
             }
           }
@@ -134,7 +134,7 @@
     }
 
     .footer-bottom-wrapper {
-      padding: 130px 0 100px;
+      padding: 50px 0;
       display: inherit;
 
       .footer-bottom-wrapper__logo-social {
@@ -142,19 +142,19 @@
         justify-content: space-between;
 
         & > a {
-          height: 30px;
+          height: 20px;
 
           img {
-            height: 30px;
+            height: 20px;
           }
         }
 
         .footer-social {
           a {
-            height: 30px;
+            height: 20px;
 
             img {
-              height: 30px;
+              height: 20px;
             }
           }
         }
