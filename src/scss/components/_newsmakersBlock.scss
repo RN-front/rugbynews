@@ -107,6 +107,19 @@
     height: 646px;
 
     .list-news {
+
+      @media screen and (max-width: 800px) {
+        min-height: 100px;
+        max-height: unset !important;
+      }
+
+      & > div:first-child {
+        @media screen and (max-width: 800px) {
+          min-height: 100px;
+          max-height: unset !important;
+        }
+      }
+
       .scroll-select-news {
         display: flex;
         justify-content: space-between;

@@ -5,6 +5,24 @@ import { Scrollbars } from 'react-custom-scrollbars';
 
 class NewsmakersBlock extends React.Component {
 
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            is_mobile: false
+        };
+
+        this.isMobileCheck = this.isMobileCheck.bind(this);
+    }
+
+    isMobileCheck() {
+        return (/iPhone|iPad|iPod|Android|webOS/.test(navigator.userAgent) && !window.MSStream);
+    }
+
+    componentDidMount() {
+        this.setState({is_mobile: this.isMobileCheck()})
+    }
+
     render() {
         return (
             <div>
@@ -44,7 +62,7 @@ class NewsmakersBlock extends React.Component {
                     </div>
                     <div className="scroll-newsmakers-block">
                         {/*<Scrollbar className="list-news">*/}
-                            <Scrollbars className="list-news" hideTracksWhenNotNeeded={true}>
+                            <Scrollbars className="list-news" hideTracksWhenNotNeeded={true} autoHeight={this.state.is_mobile}>
                             <div className="scroll-select-news">
                                 <div className="scroll-select-news__img">
                                     <img src="img/JMP_Bristol_Rugby_v_Bedford_Blues_RT0307.jpg" alt=""/>
