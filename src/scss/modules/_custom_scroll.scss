@@ -1,19 +1,15 @@
-.ScrollbarsCustom-Track.ScrollbarsCustom-TrackY {
-  height: 100%!important;
-  top: 0!important;
-  width: 5px!important;
-  right: -15px!important;
-  background: $bg-four-color!important;
-  .ScrollbarsCustom-Thumb.ScrollbarsCustom-ThumbY {
-    background: $bg-seven-color!important;
-  }
-}
-.ScrollbarsCustom-Wrapper {
-  right: 0!important;
-}
-
 .thumb-vertical {
   background-color: $bg-seven-color;
   cursor: pointer;
   border-radius: inherit;
+}
+
+.track-vertical {
+  position: absolute;
+  width: 5px!important;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border-radius: 3px;
+  background-color: $bg-four-color;
 }

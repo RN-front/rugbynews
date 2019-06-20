@@ -3,6 +3,7 @@ import NewsmakersBlock from "../../components/newsmakersBlock/";
 import VideoBlock from "../../components/videoBlock";
 import TopRatingNews from "../../components/topRatingNews";
 import TimeLineBlock from "../../components/timeLineBlock";
+import ResultFixturesBlock from "../../components/resultFixturesBlock";
 
 class Homepage extends React.Component {
 
@@ -23,6 +24,7 @@ class Homepage extends React.Component {
                             </div>
                             <div className="table-right-section">
                                 <TopRatingNews/>
+                                <ResultFixturesBlock/>
                             </div>
                         </div>
                     </div>

@@ -61,6 +61,7 @@ class NewsmakersBlock extends React.Component {
                     </div>
                     <div className="scroll-newsmakers-block">
                             <Scrollbars className="list-news" hideTracksWhenNotNeeded={true} autoHeight={this.state.is_mobile}
+                                        renderTrackVertical={props => <div {...props} className="track-vertical"/>}
                                         renderThumbVertical={props => <div {...props} className="thumb-vertical"/>}
                             >
                             <div className="scroll-select-news">
