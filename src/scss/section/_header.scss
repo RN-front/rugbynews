@@ -194,7 +194,7 @@
     .header-device {
       display: block;
       width: 100%;
-      height: 80px;
+      height: 65px;
       background-color: $bg-second-color;
       .container {
         max-width: none;
@@ -203,11 +203,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 80px;
+        height: 65px;
         .header__navToggle {
           display: flex;
-          width: 60px;
-          height: 60px;
+          width: 50px;
+          height: 50px;
           cursor: pointer;
           position: relative;
           flex-direction: column;
@@ -231,7 +231,7 @@
           }
           span {
             display: block;
-            width: 38px;
+            width: 35px;
             height: 4px;
             background-color: $bg-white-color;
             border-radius: 4px;
@@ -240,13 +240,13 @@
             transform: rotate(0);
             transition: .2s ease-in-out;
             &:nth-child(1) {
-              top: 34%;
+              top: 30%;
             }
             &:nth-child(2), &:nth-child(3) {
               top: 50%;
             }
             &:nth-child(4) {
-              top: 68%;
+              top: 70%;
               margin-bottom: 0;
             }
           }
@@ -261,14 +261,14 @@
           }
         }
         .header-search-section {
-          height: 60px;
-          width: 54px;
+          height: 50px;
+          width: 43px;
           display: flex;
           align-items: center;
           justify-content: flex-end;
           border-left: 1px solid $bg-main-color;
           img {
-            height: 35px;
+            height: 30px;
           }
         }
         .navigation-side-mobile {
@@ -283,7 +283,7 @@
           right: 0;
           position: fixed;
           left: 0;
-          top: 79px;
+          top: 64px;
 
           &.active-nav-mobile {
             transition: height .7s;
@@ -291,7 +291,7 @@
             overflow: inherit;
           }
           .header-nav-menu {
-            padding: 0 25px;
+            padding: 0 15px;
             top: 0;
             bottom: 0;
             position: absolute;
@@ -300,17 +300,17 @@
             width: 100%;
 
             & > li {
-              padding: 25px 0;
+              padding: 15px 0;
               border-bottom: 1px solid $bg-nine-color;
               color: $main-lighter-text-color;
               font-family: $mainfont;
-              font-size: 28px;
+              font-size: 22px;
               font-weight: 700;
               text-transform: uppercase;
               a {
                 color: $main-lighter-text-color;
                 font-family: $mainfont;
-                font-size: 28px;
+                font-size: 22px;
                 font-weight: 700;
                 text-transform: uppercase;
               }
@@ -324,8 +324,8 @@
                 align-items: center;
                 margin: 10px 0;
                 .header-time-line-section__check {
-                  width: 91px;
-                  height: 34px;
+                  width: 62px;
+                  height: 25px;
                   border: 1px solid #bdbdbd;
                   border-radius: 16px;
                   background-color: #ffffff;
@@ -338,18 +338,18 @@
                     left: 0;
                     border-radius: 50%;
                     background-color: $bg-seven-color;
-                    width: 32px;
-                    height: 32px;
+                    width: 25px;
+                    height: 23px;
                   }
                   .checked-mob-line {
-                    left: 57px;
+                    left: 35px;
                   }
                 }
 
                 p {
                   color: $main-lighter-text-color;
                   font-family: $mainfont;
-                  font-size: 28px;
+                  font-size: 22px;
                   font-weight: 700;
                   text-transform: uppercase;
                   margin-right: 19px;
@@ -358,8 +358,8 @@
               &.header-search-login-section {
                 border-bottom: none;
                 button {
-                  width: 247px;
-                  height: 74px;
+                  min-width: 150px;
+                  height: 50px;
                   border-radius: 2px;
                   border: 1px solid #b1b3b5;
                   justify-content: center;
@@ -372,26 +372,26 @@
                   outline: none;
                   width: auto;
                   color: $main-white-text-color;
-                  font-size: 28px;
+                  font-size: 21px;
                   font-weight: 400;
                   option {
                     background-color: $bg-second-color;
                   }
                 }
                 img {
-                  height: 23px;
+                  height: 20px;
                   margin-left: 30px;
                 }
               }
               button {
                 color: $main-white-text-color;
                 font-family: $mainfont;
-                font-size: 28px;
+                font-size: 22px;
                 font-weight: 400;
                 display: flex;
                 align-items: center;
                 img {
-                  height: 35px;
+                  height: 22px;
                   padding-left: 30px;
                 }
               }
@@ -401,17 +401,17 @@
                 content: "";
                 position: absolute;
                 right: 27px;
-                top: 33px;
+                top: 20px;
                 bottom: 0;
                 transform: rotate(45deg);
-                width: 18px;
-                height: 18px;
+                width: 15px;
+                height: 15px;
                 border-right: 2px solid $bg-seven-color;
                 border-top: 2px solid $bg-seven-color;
               }
               .submenu-list {
                 display: none;
-                padding: 0 25px;
+                padding: 0 15px;
                 background-color: $bg-fifteen-color;
                 position: absolute;
                 top: 0;
@@ -419,18 +419,18 @@
                 width: 100%;
                 z-index:100;
                 & > li {
-                  padding: 25px 0;
+                  padding: 15px 0;
                   border-bottom: 1px solid $bg-nine-color;
                   color: $main-lighter-text-color;
                   font-family: $mainfont;
-                  font-size: 28px;
+                  font-size: 22px;
                   font-weight: 700;
                   text-transform: uppercase;
                   cursor: pointer;
                   a {
                     color: $main-lighter-text-color;
                     font-family: $mainfont;
-                    font-size: 28px;
+                    font-size: 22px;
                     font-weight: 700;
                     text-transform: uppercase;
                   }
