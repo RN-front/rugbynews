@@ -17,6 +17,15 @@ body {
   min-width: 320px;
 }
 
+input, textarea {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  resize: none;
+}
+
 .menu-opened {
   overflow: inherit;
   position: inherit;
@@ -99,5 +108,55 @@ body {
     width: 18px;
     height: 18px;
     margin-right: 18px;
+  }
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+  color: $main-eleven-text-color;
+  font-family: $mainfont;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.label-checkbox {
+  margin-bottom: 40px;
+  padding-left: 25px;
+  font-size: 14px;
+  position: relative;
+  font-weight: 600;
+
+  .check__input {
+    position: absolute;
+    left: 0;
+    -webkit-appearance: none;
+    opacity: 0;
+  }
+
+  .check__box {
+    position: absolute;
+    transition: 0.2s;
+    margin-top: .2em;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    border: 1px solid #b1b3b5;
+
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+      left: 4px;
+      top: -1px;
+      width: 3px;
+      height: 10px;
+      border: solid #6b707d;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+  }
+
+  .check__input:checked + .check__box:after {
+    display: block;
   }
 }

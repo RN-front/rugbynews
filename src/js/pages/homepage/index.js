@@ -4,6 +4,7 @@ import VideoBlock from "../../components/videoBlock";
 import TopRatingNews from "../../components/topRatingNews";
 import TimeLineBlock from "../../components/timeLineBlock";
 import ResultFixturesBlock from "../../components/resultFixturesBlock";
+import LoginPopup from "../../components/popup/loginPopup";
 
 class Homepage extends React.Component {
 
@@ -29,6 +30,7 @@ class Homepage extends React.Component {
                         </div>
                     </div>
                 </div>
+                <LoginPopup/>
             </div>
         )
     }
