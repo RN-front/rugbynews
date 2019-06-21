@@ -17,15 +17,6 @@ body {
   min-width: 320px;
 }
 
-input, textarea {
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-  -webkit-appearance: none;
-  box-sizing: border-box;
-  resize: none;
-}
-
 .menu-opened {
   overflow: inherit;
   position: inherit;
@@ -118,6 +109,8 @@ input, textarea {
   font-weight: 600;
 }
 
+//checkbox style start
+
 .label-checkbox {
   margin-bottom: 33px;
   padding-left: 25px;
@@ -162,3 +155,5 @@ input, textarea {
     display: block;
   }
 }
+
+//checkbox style end
