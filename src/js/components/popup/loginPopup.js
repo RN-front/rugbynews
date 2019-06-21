@@ -41,10 +41,8 @@ class LoginPopup extends React.Component {
                                         <span>LOG IN</span>
                                         <span className="loader"/>
                                     </button>
-                                    <Link className="no-account" to="/forgot">SignIn</Link>
-                                </div>
-                                <div className="label-password-top-block">
-                                    <Link className="no-account" to="/forgot">Lost Your Password?</Link>
+                                    <Link to="/forgot">Lost Your Password?</Link>
+                                    <Link to="/registration">SignIn</Link>
                                 </div>
                             </form>
                         </div>
