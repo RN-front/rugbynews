@@ -92,5 +92,64 @@
 }
 
 @media only screen and (max-width: $deviceWidth) {
+	.result-fixtures-block {
 
+		.result-fixtures-block__title {
+
+
+			.result-fixtures-block__title-result, .result-fixtures-block__title-fixtures {
+
+
+				p {
+
+				}
+			}
+
+			.result-fixtures-block__title-result {
+
+			}
+
+			.result-fixtures-block__title-fixtures {
+
+			}
+		}
+		.result-fixtures-block__table {
+
+
+			.result-fixtures-block__table-result {
+
+				.result-fixtures-block__table-result-info {
+
+					p {
+
+					}
+				}
+
+				.result-fixtures-block__table-result-score {
+
+
+					.result-fixtures-block__command {
+
+
+						p {
+
+						}
+
+						div img {
+
+						}
+					}
+				}
+			}
+			.result-fixtures-block__table-link {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				font-size: 14px;
+				span {
+					display: none;
+				}
+			}
+		}
+	}
 }

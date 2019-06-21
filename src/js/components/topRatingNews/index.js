@@ -37,7 +37,7 @@ class TopRatingNews extends React.Component {
                         <div className="top-rating-news-block__list__item">
                             <Link to='/'>Man UTD January Transfer life</Link>
                             <div className="top-rating-news-block__info">
-                                <span className="icon-play"></span>
+                                <span className="icon-play"/>
                                 <img src="img/time_icon.png" alt="time-icon"/>
                                 <span className="time-ago">2h</span>
                                 <span className="source-web">BBC Sport </span>

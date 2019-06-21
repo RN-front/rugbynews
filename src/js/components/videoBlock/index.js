@@ -74,7 +74,10 @@ class VideoBlock extends React.Component {
                                         <p>opposed the football fan zone on the territory of the university. opposed the football fan zone on the territory of the university.</p>
                                     </div>
                                     <div className="scroll-select-news__preview__info">
-                                        <p><img src="img/play_icon.png" alt=""/><img src="img/time_icon.png" alt=""/>15 sec/min ago<span>Rugby Union</span></p>
+                                        <span className="icon-play"/>
+                                        <img src="img/time_icon.png" alt="time-icon"/>
+                                        <span>15 min ago</span>
+                                        <span>Rugby Union</span>
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +88,10 @@ class VideoBlock extends React.Component {
                                         <p>opposed the football fan zone on the territory of the university. opposed the football fan zone on the territory of the university.</p>
                                     </div>
                                     <div className="scroll-select-news__preview__info">
-                                        <p><img src="img/play_icon.png" alt=""/><img src="img/time_icon.png" alt=""/>15 sec/min ago<span>Rugby Union</span></p>
+                                        <span className="icon-star"/>
+                                        <img src="img/time_icon.png" alt="time-icon"/>
+                                        <span>15 min ago</span>
+                                        <span>Rugby Union</span>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +105,10 @@ class VideoBlock extends React.Component {
                                         <p>opposed the football fan zone on the territory of the university. opposed the football fan zone on the territory of the university.</p>
                                     </div>
                                     <div className="scroll-select-news__preview__info">
-                                        <p><img src="img/play_icon.png" alt=""/><img src="img/time_icon.png" alt=""/>15 sec/min ago<span>Rugby Union</span></p>
+                                        <span className="icon-play"/>
+                                        <img src="img/time_icon.png" alt="time-icon"/>
+                                        <span>15 min ago</span>
+                                        <span>Rugby Union</span>
                                     </div>
                                 </div>
                             </div>
@@ -113,7 +122,10 @@ class VideoBlock extends React.Component {
                                         <p>opposed the football fan zone on the territory of the university. opposed the football fan zone on the territory of the university.</p>
                                     </div>
                                     <div className="scroll-select-news__preview__info">
-                                        <p><img src="img/play_icon.png" alt=""/><img src="img/time_icon.png" alt=""/>15 sec/min ago<span>Rugby Union</span></p>
+                                        <span className="icon-play"/>
+                                        <img src="img/time_icon.png" alt="time-icon"/>
+                                        <span>15 min ago</span>
+                                        <span>Rugby Union</span>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +136,10 @@ class VideoBlock extends React.Component {
                                         <p>opposed the football fan zone on the territory of the university. opposed the football fan zone on the territory of the university.</p>
                                     </div>
                                     <div className="scroll-select-news__preview__info">
-                                        <p><img src="img/play_icon.png" alt=""/><img src="img/time_icon.png" alt=""/>15 sec/min ago<span>Rugby Union</span></p>
+                                        <span className="icon-star"/>
+                                        <img src="img/time_icon.png" alt="time-icon"/>
+                                        <span>15 min ago</span>
+                                        <span>Rugby Union</span>
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +153,10 @@ class VideoBlock extends React.Component {
                                         <p>opposed the football fan zone on the territory of the university. opposed the football fan zone on the territory of the university.</p>
                                     </div>
                                     <div className="scroll-select-news__preview__info">
-                                        <p><img src="img/play_icon.png" alt=""/><img src="img/time_icon.png" alt=""/>15 sec/min ago<span>Rugby Union</span></p>
+                                        <span className="icon-video"/>
+                                        <img src="img/time_icon.png" alt="time-icon"/>
+                                        <span>15 min ago</span>
+                                        <span>Rugby Union</span>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +170,10 @@ class VideoBlock extends React.Component {
                                         <p>opposed the football fan zone on the territory of the university. opposed the football fan zone on the territory of the university.</p>
                                     </div>
                                     <div className="scroll-select-news__preview__info">
-                                        <p><img src="img/play_icon.png" alt=""/><img src="img/time_icon.png" alt=""/>15 sec/min ago<span>Rugby Union</span></p>
+                                        <span className="icon-play"/>
+                                        <img src="img/time_icon.png" alt="time-icon"/>
+                                        <span>15 min ago</span>
+                                        <span>Rugby Union</span>
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +187,10 @@ class VideoBlock extends React.Component {
                                         <p>opposed the football fan zone on the territory of the university. opposed the football fan zone on the territory of the university.</p>
                                     </div>
                                     <div className="scroll-select-news__preview__info">
-                                        <p><img src="img/play_icon.png" alt=""/><img src="img/time_icon.png" alt=""/>15 sec/min ago<span>Rugby Union</span></p>
+                                        <span className="icon-play"/>
+                                        <img src="img/time_icon.png" alt="time-icon"/>
+                                        <span>15 min ago</span>
+                                        <span>Rugby Union</span>
                                     </div>
                                 </div>
                             </div>
@@ -177,14 +201,17 @@ class VideoBlock extends React.Component {
                                         <p>opposed the football fan zone on the territory of the university. opposed the football fan zone on the territory of the university.</p>
                                     </div>
                                     <div className="scroll-select-news__preview__info">
-                                        <p><img src="img/play_icon.png" alt=""/><img src="img/time_icon.png" alt=""/>15 sec/min ago<span>Rugby Union</span></p>
+                                        <span className="icon-video"/>
+                                        <img src="img/time_icon.png" alt="time-icon"/>
+                                        <span>15 min ago</span>
+                                        <span>Rugby Union</span>
                                     </div>
                                 </div>
                             </div>
                         </Scrollbars>
                     </div>
                     <div className="show-more-news">
-                        <button>More Recent News <span>&rarr;</span></button>
+                        <Link to='/'>More Recent News <span>&rarr;</span></Link>
                     </div>
                 </div>
             </div>

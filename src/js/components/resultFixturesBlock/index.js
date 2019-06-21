@@ -184,7 +184,7 @@ class ResultFixturesBlock extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <Link to='/' className="result-fixtures-block__table-link">All Result<span>&rarr;</span></Link>
+                        <Link to='/' className="result-fixtures-block__table-link">All Result <span> &rarr;</span></Link>
                     </div>
                 </div>
             </div>
