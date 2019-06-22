@@ -5,6 +5,8 @@ import TopRatingNews from "../../components/topRatingNews";
 import TimeLineBlock from "../../components/timeLineBlock";
 import ResultFixturesBlock from "../../components/resultFixturesBlock";
 import LoginPopup from "../../components/popup/loginPopup";
+import SearchPopup from "../../components/popup/searchPopup";
+import AddFeedPopup from "../../components/popup/addFeedPopup";
 
 class Homepage extends React.Component {
 
@@ -30,7 +32,9 @@ class Homepage extends React.Component {
                         </div>
                     </div>
                 </div>
-                <LoginPopup/>
+                {/*<LoginPopup/>*/}
+                {/*<SearchPopup/>*/}
+                {/*<AddFeedPopup/>*/}
             </div>
         )
     }

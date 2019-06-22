@@ -111,6 +111,22 @@
       }
     }
 
+    &.m--search {
+      .main-form {
+        .button-wrapper {
+          justify-content: center;
+        }
+      }
+    }
+
+    &.m--add-feed {
+      .main-form {
+        .button-wrapper {
+          justify-content: center;
+        }
+      }
+    }
+
     &.hide-step {
       opacity: 0;
       min-height: 0;
