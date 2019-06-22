@@ -5,6 +5,10 @@
 		display: flex;
 		justify-content: space-between;
 
+		.news-section {
+			width: 845px;
+		}
+
 		.table-right-section {
 			margin-top: 25px;
 			width: 278px;
@@ -19,6 +23,10 @@
 		.main-section-wrapper {
 			display: flex;
 			flex-direction: column;
+
+			.news-section {
+				width: 100%;
+			}
 
 			.table-right-section {
 				margin-top: 25px;

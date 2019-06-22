@@ -7,6 +7,7 @@ import ResultFixturesBlock from "../../components/resultFixturesBlock";
 import LoginPopup from "../../components/popup/loginPopup";
 import SearchPopup from "../../components/popup/searchPopup";
 import AddFeedPopup from "../../components/popup/addFeedPopup";
+import TimeLineActiveBlock from "../../components/timeLineActiveBlock";
 
 class Homepage extends React.Component {
 
@@ -24,6 +25,8 @@ class Homepage extends React.Component {
                             <div className="news-section">
                                 <NewsmakersBlock/>
                                 <VideoBlock/>
+                                {/*Компонент активируется при включении таймлайн*/}
+                                {/*<TimeLineActiveBlock/> */}
                             </div>
                             <div className="table-right-section">
                                 <TopRatingNews/>
