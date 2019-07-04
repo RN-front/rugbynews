@@ -6,11 +6,11 @@ import {BrowserRouter} from 'react-router-dom';
 import ScrollToTop from './../modules/scrollToTop';
 import CSSTransitionGroup from "react-addons-css-transition-group";
 
-import Homepage from "../pages/homepage/"
-import pageNotFound from "../pages/404/"
-import Header from "../components/header/"
-import Footer from "../components/footer/"
-import NewsmakersBlock from "../components/newsmakersBlock/"
+import Homepage from "../pages/homepage/";
+import pageNotFound from "../pages/404/";
+import Header from "../components/header/";
+import Footer from "../components/footer/";
+import VideoNews from "../pages/videonews/";
 
 
 class MainRouting extends React.Component {
@@ -46,6 +46,7 @@ class MainRouting extends React.Component {
                             <Switch>
                                 <Route exact path="/" component={Homepage}/>
                                 <Route component={pageNotFound}/>
+                                <Route exact path="/video-news" component={VideoNews}/>
                             </Switch>
                             <Route path="/" component={Footer}/>
                         </Fragment>
