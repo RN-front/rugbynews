@@ -17,6 +17,7 @@ class Footer extends React.Component {
                                 <div className="title-column">
                                     <p onClick={this.toggleAnswer}>РУБРИКАТОР</p>
                                     <ul className="footer-list">
+                                        <li><Link to='/faq'>FAQ</Link></li>
                                         <li><Link to='/'>Новости</Link></li>
                                         <li><Link to='/'>Истории</Link></li>
                                         <li><Link to='/'>Разбор</Link></li>

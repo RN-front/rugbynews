@@ -1,0 +1,125 @@
+.faq-block {
+	padding-top: 105px;
+
+	.faq-block__title {
+		border-bottom: 2px solid $bg-second-color;
+		color: $main-six-text-color;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 1.4;
+		margin-bottom: 16px;
+	}
+
+	.faq-block__wrapper {
+		display: flex;
+
+		.left-profile-menu-block {
+			margin-right: 25px;
+			min-width: 140px;
+			max-width: 200px;
+			margin-bottom: 25px;
+		}
+
+		.faq-block__main-block {
+			width: 100%;
+			.faq-block__main-block__title {
+				color: $main-text-color;
+				background-color: $bg-lighter-color;
+				font-size: 14px;
+				font-weight: 700;
+				text-transform: uppercase;
+				padding: 13px 20px;
+				margin-bottom: 35px;
+			}
+			.faq-dropdown-block {
+				.faq-dropdown-item {
+					margin-bottom: 15px;
+					min-height: 50px;
+					background-color: $bg-white-color;
+					overflow: hidden;
+					border: 1px solid $bg-eleven-color;
+
+					&.show-more {
+						.faq-dropdown-show-more {
+							border-top: none;
+							max-height: inherit;
+							opacity: 1;
+							padding: 15px;
+							border-top: 1px solid lightgray;
+						}
+						.faq-dropdown-question:before {
+							transform: rotate(-45deg);
+							border-right: 1px solid $bg-white-color;
+							border-top: 1px solid $bg-white-color;
+						}
+						.faq-dropdown-question {
+							background-color: $bg-seven-color;
+							color: $bg-white-color;
+						}
+					}
+
+					.faq-dropdown-question {
+						cursor: pointer;
+						position: relative;
+						display: flex;
+						padding: 10px 40px 10px 25px;
+						min-height: 50px;
+						align-items: center;
+						border: 1px solid transparent;
+
+						&:before {
+							transition: .2s;
+							margin: auto;
+							content: "";
+							position: absolute;
+							right: 20px;
+							top: 0;
+							bottom: 0;
+							transform: rotate(134deg);
+							width: 10px;
+							height: 10px;
+							border-right: 1px solid $bg-eleven-color;
+							border-top: 1px solid $bg-eleven-color;
+						}
+
+						p {
+							line-height: 1.5;
+							font-size: 14px;
+							font-weight: 600;
+						}
+					}
+
+					.faq-dropdown-show-more {
+						padding: 0 15px;
+						transition: .3s;
+						max-height: 0;
+						opacity: 0;
+
+						p {
+							font-size: 14px;
+							font-weight: 400;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $deviceWidth) {
+	.faq-block {
+		padding-top: 95px;
+
+		.faq-block__wrapper {
+			display: flex;
+			flex-direction: column;
+
+			.left-profile-menu-block {
+				margin-right: 0;
+				width: 100%;
+				max-width: inherit;
+			}
+		}
+	}
+}

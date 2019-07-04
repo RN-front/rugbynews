@@ -11,6 +11,7 @@ import pageNotFound from "../pages/404/";
 import Header from "../components/header/";
 import Footer from "../components/footer/";
 import VideoNews from "../pages/videonews/";
+import Faq from "../pages/faq/";
 
 
 class MainRouting extends React.Component {
@@ -46,6 +47,7 @@ class MainRouting extends React.Component {
                             <Switch>
                                 <Route exact path="/" component={Homepage}/>
                                 <Route exact path="/video-news" component={VideoNews}/>
+                                <Route exact path="/faq" component={Faq}/>
                                 <Route component={pageNotFound}/>
                             </Switch>
                             <Route path="/" component={Footer}/>
