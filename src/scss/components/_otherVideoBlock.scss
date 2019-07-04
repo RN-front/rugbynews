@@ -1,0 +1,21 @@
+.other-video-block {
+	&.newsmakers-section h2 {
+		border-bottom: 2px solid $bg-main-color;
+		color: $main-light-text-color;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 1.4;
+		margin-bottom: 16px;
+	}
+	.scroll-newsmakers-block {
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: $deviceWidth) {
+	.newsmakers-section .scroll-newsmakers-block .list-news > div:first-child {
+		min-height: auto;
+		max-height: inherit !important;
+	}
+}

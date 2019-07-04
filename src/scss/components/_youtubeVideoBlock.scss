@@ -1,0 +1,38 @@
+.youtube-video-block {
+	h2 {
+		border-bottom: 2px solid $bg-twelve-color;
+		color: $main-text-color;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 1.4;
+		margin-bottom: 16px;
+	}
+	.youtube-video-block__info {
+		font-size: 12px;
+		display: flex;
+		align-items: center;
+		margin-bottom: 16px;
+
+		img {
+			height: 10px;
+		}
+
+		span {
+			padding: 0 10px;
+
+			&:last-child {
+				border-left: 1px solid $bg-five-color;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $deviceWidth) {
+	.youtube-video-block {
+		.ytplayer {
+			height: 50vw;
+			max-height: 360px;
+		}
+	}
+}

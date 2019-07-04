@@ -84,7 +84,7 @@ class Header extends React.Component {
                                             <Link to='/'>TABLES</Link>
                                         </li>
                                         <li>
-                                            <Link to='/'>VIDEO</Link>
+                                            <Link to='/video-news'>VIDEO</Link>
                                         </li>
                                     </ul>
                                     <div className="header-search-login-section">
@@ -164,7 +164,7 @@ class Header extends React.Component {
                                             <Link to='/'>TABLES</Link>
                                         </li>
                                         <li>
-                                            <Link to='/'>VIDEO</Link>
+                                            <Link to='/video-news'>VIDEO</Link>
                                         </li>
                                         <li>
                                             <Link to='/'>PARTNERSHIP</Link>

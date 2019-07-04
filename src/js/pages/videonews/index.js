@@ -1,6 +1,6 @@
 import React from "react";
 import NewsmakersBlock from "../../components/newsmakersBlock/";
-import VideoBlock from "../../components/videoBlock";
+import OtherVideoBlock from "../../components/otherVideoBlock";
 import TopRatingNews from "../../components/topRatingNews";
 import TimeLineBlock from "../../components/timeLineBlock";
 import ResultFixturesBlock from "../../components/resultFixturesBlock";
@@ -22,7 +22,7 @@ class VideoNews extends React.Component {
                         <div className="main-section-wrapper">
                             <div className="news-section">
                                 <YoutubeVideoBlock/>
-                                <VideoBlock/>
+                                <OtherVideoBlock/>
                                 {/*Компонент активируется при включении таймлайн*/}
                                 {/*<TimeLineActiveBlock/> */}
                             </div>

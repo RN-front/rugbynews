@@ -45,8 +45,8 @@ class MainRouting extends React.Component {
                             <Route path="/" component={Header}/>
                             <Switch>
                                 <Route exact path="/" component={Homepage}/>
-                                <Route component={pageNotFound}/>
                                 <Route exact path="/video-news" component={VideoNews}/>
+                                <Route component={pageNotFound}/>
                             </Switch>
                             <Route path="/" component={Footer}/>
                         </Fragment>
