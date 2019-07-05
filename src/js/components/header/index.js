@@ -81,7 +81,7 @@ class Header extends React.Component {
                                             <Link to='/'>RESULTS</Link>
                                         </li>
                                         <li>
-                                            <Link to='/'>TABLES</Link>
+                                            <Link to='/tables'>TABLES</Link>
                                         </li>
                                         <li>
                                             <Link to='/video-news'>VIDEO</Link>
@@ -161,7 +161,7 @@ class Header extends React.Component {
                                             <Link to='/'>RESULTS</Link>
                                         </li>
                                         <li>
-                                            <Link to='/'>TABLES</Link>
+                                            <Link to='/tables'>TABLES</Link>
                                         </li>
                                         <li>
                                             <Link to='/video-news'>VIDEO</Link>
