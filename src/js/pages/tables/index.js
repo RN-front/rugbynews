@@ -30,7 +30,7 @@ class Tables extends React.Component {
                                 <th>Next matches</th>
                             </tr>
                             <tr>
-                                <td className="table__img"><img src="/img/1.png" alt=""/></td>
+                                <td className="table__img"><img src="img/1.png" alt=""/></td>
                                 <td>1</td>
                                 <td>Montpellier Herault</td>
                                 <td className="spec-bg">1</td>
@@ -47,7 +47,7 @@ class Tables extends React.Component {
                                 <td>1</td>
                             </tr>
                             <tr>
-                                <td className="table__img"><img src="/img/2.png" alt=""/></td>
+                                <td className="table__img"><img src="img/2.png" alt=""/></td>
                                 <td>1</td>
                                 <td>Lyon</td>
                                 <td className="spec-bg">1</td>
@@ -64,7 +64,7 @@ class Tables extends React.Component {
                                 <td>1</td>
                             </tr>
                             <tr>
-                                <td className="table__img"><img src="/img/3.png" alt=""/></td>
+                                <td className="table__img"><img src="img/3.png" alt=""/></td>
                                 <td>1</td>
                                 <td>Castres Olympique</td>
                                 <td className="spec-bg">1</td>
@@ -81,7 +81,7 @@ class Tables extends React.Component {
                                 <td>1</td>
                             </tr>
                             <tr>
-                                <td className="table__img"><img src="/img/1.png" alt=""/></td>
+                                <td className="table__img"><img src="img/1.png" alt=""/></td>
                                 <td>1</td>
                                 <td>Stade Toulousain</td>
                                 <td className="spec-bg">1</td>
@@ -98,7 +98,7 @@ class Tables extends React.Component {
                                 <td>1</td>
                             </tr>
                             <tr>
-                                <td className="table__img"><img src="/img/1.png" alt=""/></td>
+                                <td className="table__img"><img src="img/1.png" alt=""/></td>
                                 <td>1</td>
                                 <td>Montpellier Herault</td>
                                 <td className="spec-bg">1</td>
@@ -115,7 +115,7 @@ class Tables extends React.Component {
                                 <td>1</td>
                             </tr>
                             <tr>
-                                <td className="table__img"><img src="/img/2.png" alt=""/></td>
+                                <td className="table__img"><img src="img/2.png" alt=""/></td>
                                 <td>1</td>
                                 <td>Lyon</td>
                                 <td className="spec-bg">1</td>
@@ -132,7 +132,7 @@ class Tables extends React.Component {
                                 <td>1</td>
                             </tr>
                             <tr>
-                                <td className="table__img"><img src="/img/3.png" alt=""/></td>
+                                <td className="table__img"><img src="img/3.png" alt=""/></td>
                                 <td>1</td>
                                 <td>Castres Olympique</td>
                                 <td className="spec-bg">1</td>
@@ -149,7 +149,7 @@ class Tables extends React.Component {
                                 <td>1</td>
                             </tr>
                             <tr>
-                                <td className="table__img"><img src="/img/1.png" alt=""/></td>
+                                <td className="table__img"><img src="img/1.png" alt=""/></td>
                                 <td>1</td>
                                 <td>Stade Toulousain</td>
                                 <td className="spec-bg">1</td>
