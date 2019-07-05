@@ -49,6 +49,8 @@
 					font-size: 12px;
 					font-weight: 400;
 					margin-bottom: 5px;
+					max-height: 45px;
+					overflow: hidden;
 				}
 			}
 
@@ -70,6 +72,10 @@
 						font-size: 14px;
 						font-weight: 400;
 						text-transform: uppercase;
+						max-width: 90px;
+						overflow: hidden;
+						white-space: nowrap;
+						text-overflow: ellipsis;
 					}
 
 					div img {
