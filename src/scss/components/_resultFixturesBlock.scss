@@ -49,6 +49,11 @@
 		padding: 14px 10px 24px 10px;
 		border: 1px solid $bg-seven-color;
 		border-top: none;
+		display: none;
+
+		&.active {
+			display: block;
+		}
 
 		.result-fixtures-block__table-result {
 			display: flex;
@@ -117,6 +122,10 @@
 		display: none;
 		&.active {
 			display: block;
+		}
+		.result-fixtures-block__table-result .result-fixtures-block__table-result-score .result-fixtures-block__command {
+			display: flex;
+			justify-content: flex-start;
 		}
 	}
 }
