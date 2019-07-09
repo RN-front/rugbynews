@@ -1,0 +1,132 @@
+.schedule-section {
+  margin-top: 25px;
+  h2 {
+    border-bottom: 2px solid $bg-second-color;
+    color: $main-six-text-color;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin-bottom: 16px;
+  }
+
+  .schedule-section-wrapper {
+    .schedule-section-wrapper__time-frame {
+      display: flex;
+      height: 37px;
+
+      button {
+        color: $main-text-color;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        width: 22%;
+        border: 1px solid $bg-five-color;
+        &:last-child {
+          width: 34%;
+        }
+        &.active {
+          background-color: $bg-main-color;
+          color: $main-white-text-color;
+          border: 1px solid $bg-main-color;
+        }
+      }
+    }
+
+    .schedule-section-wrapper__date {
+      height: 33px;
+      background-color: $bg-fifteen-color;
+
+      p {
+        color: $main-white-text-color;
+        line-height: 33px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .schedule-section-wrapper__match-center {
+      .schedule-section-wrapper__match-center-title {
+        display: flex;
+        height: 33px;
+        background-color: #37474f;
+        div {
+          text-align: center;
+          color: #ffffff;
+          font-size: 16px;
+          line-height: 33px;
+          font-weight: 400;
+          width: 25%;
+          &:last-child {
+            width: 75%;
+          }
+        }
+      }
+
+      .schedule-section-wrapper__match-center-match {
+        height: 104px;
+        border: 1px solid $bg-four-color;
+        background-color: $bg-lighter-color;
+        margin-bottom: 6px;
+        display: flex;
+        align-items: center;
+
+        .tournament-logo {
+          width: 25%;
+          text-align: center;
+
+          img {
+            height: 33px;
+          }
+        }
+        .play-time {
+          width: 75%;
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+
+          .time {
+            display: flex;
+            margin: 0 15px;
+            p {
+              color: $main-white-text-color;
+              font-size: 18px;
+              background-color: $bg-seven-color;
+              padding: 6px;
+              &:first-child {
+                margin-right: 7px;
+              }
+            }
+          }
+
+          .gmt-time {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+
+            p {
+              color: $main-fifteen-text-color;
+              font-size: 18px;
+              text-transform: uppercase;
+            }
+          }
+
+          .home-team, .guest-team {
+            display: flex;
+            align-items: center;
+
+            img {
+              height: 30px;
+              margin: 0 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $deviceWidth) {
+
+}

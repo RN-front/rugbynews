@@ -13,6 +13,7 @@ import Footer from "../components/footer/";
 import VideoNews from "../pages/videonews/";
 import Faq from "../pages/faq/";
 import Tables from "../pages/tables/";
+import Schedule from "../pages/schedule/";
 
 
 class MainRouting extends React.Component {
@@ -49,6 +50,7 @@ class MainRouting extends React.Component {
                                 <Route exact path="/" component={Homepage}/>
                                 <Route exact path="/video-news" component={VideoNews}/>
                                 <Route exact path="/faq" component={Faq}/>
+                                <Route exact path="/schedule" component={Schedule}/>
                                 <Route exact path="/tables" component={Tables}/>
                                 <Route component={pageNotFound}/>
                             </Switch>
