@@ -10,6 +10,7 @@
 			padding: 12px 0;
 			cursor: pointer;
 			position: relative;
+			background-color: $bg-second-color;
 
 			p {
 				text-align: center;
@@ -20,12 +21,13 @@
 				font-weight: 700;
 			}
 			&.active {
+				background-color: $bg-seven-color;
 				&:after {
 					content: "";
 					display: block;
 					border-width: 8px 8px 8px;
 					border-style: solid;
-					border-color: $bg-second-color transparent transparent ;
+					border-color: $bg-seven-color transparent transparent ;
 					margin-left: -10px;
 					position: absolute;
 					top: 43px;
@@ -35,14 +37,14 @@
 		}
 
 		.result-fixtures-block__title-result {
-			background-color: $bg-seven-color;
+			//background-color: $bg-seven-color;
 			&.active:after {
 				border-color: $bg-seven-color transparent transparent ;
 			}
 		}
 
 		.result-fixtures-block__title-fixtures {
-			background-color: $bg-second-color;
+			//background-color: $bg-second-color;
 		}
 	}
 	.result-fixtures-block__table__result {
@@ -111,7 +113,7 @@
 			padding: 10px 30px;
 			background-color: #0091ea;
 			color: #ffffff;
-			font-size: 12px;
+			font-size: 14px;
 			font-weight: 700;
 			display: inline-block;
 			margin-top: 25px;

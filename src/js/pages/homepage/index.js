@@ -26,7 +26,7 @@ class Homepage extends React.Component {
                                 <NewsmakersBlock/>
                                 <VideoBlock/>
                                 {/*Компонент активируется при включении таймлайн*/}
-                                {/*<TimeLineActiveBlock/> */}
+                                {/*<TimeLineActiveBlock/>*/}
                             </div>
                             <div className="table-right-section">
                                 <TopRatingNews/>

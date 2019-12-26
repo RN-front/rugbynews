@@ -1,0 +1,22 @@
+$cmp: ".page-not-found";
+
+#{$cmp} {
+	min-height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	&__title {
+		@extend .h1Header;
+		margin-bottom: 40px;
+	}
+
+	&__subTitle {
+		font-size: 100px;
+	}
+}
+
+@media only screen and (max-width: $deviceWidth) {
+
+}

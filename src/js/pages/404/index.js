@@ -3,13 +3,16 @@ import React from "react";
 class pageNotFound extends React.Component {
 
     componentDidMount(){
-        document.title = "LifesPulse | Страница не найдена"
+        document.title = "Rugbynews | Page not find"
     }
 
     render() {
         return (
             <div>
-                <h1>This is page 404</h1>
+                <div className="page-not-found">
+                    <h1 className="page-not-found__title">Page not found</h1>
+                    <h2 className="page-not-found__subTitle">404</h2>
+                </div>
             </div>
         )
     }

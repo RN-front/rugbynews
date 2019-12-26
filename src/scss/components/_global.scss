@@ -109,6 +109,38 @@ body {
   font-weight: 600;
 }
 
+.h1Header {
+  font-size: 46px;
+  line-height: 1.2;
+  @media only screen and (max-width: $deviceWidth) {
+    font-size: 32px;
+  }
+}
+
+.h1subHeader {
+  font-size: 32px;
+  line-height: 1.2;
+  @media only screen and (max-width: $deviceWidth) {
+    font-size: 22px;
+  }
+}
+
+.h2Header {
+  font-size: 36px;
+  line-height: 1.2;
+  @media only screen and (max-width: $deviceWidth) {
+    font-size: 22px;
+  }
+}
+
+.h2subHeader {
+  font-size: 22px;
+  line-height: 1.2;
+  @media only screen and (max-width: $deviceWidth) {
+    font-size: 18px;
+  }
+}
+
 //checkbox style start
 
 .label-checkbox {
