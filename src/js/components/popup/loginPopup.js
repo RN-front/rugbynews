@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import GoogleButton from 'react-google-button'
 import {BrowserRouter} from 'react-router';
 
 
@@ -42,7 +43,12 @@ class LoginPopup extends React.Component {
                                         <span className="loader"/>
                                     </button>
                                     <Link to="/forgot">Lost Your Password?</Link>
-                                    <Link to="/registration">SignIn</Link>
+                                    <Link to="/registration">Sign up</Link>
+                                </div>
+                                <div className="social-sigin-wrapper">
+                                    <GoogleButton
+                                        onClick={() => { console.log('Google button clicked') }}
+                                    />
                                 </div>
                             </form>
                         </div>

@@ -15,7 +15,7 @@ class Tables extends React.Component {
                     <div className="container">
                         <table>
                             <tr className="title">
-                                <th colSpan="3">DEY 3</th>
+                                <th colSpan="2">DEY 3</th>
                                 <th className="spec-width">Played</th>
                                 <th className="spec-width">Won</th>
                                 <th className="spec-width">Drawn</th>
@@ -31,7 +31,6 @@ class Tables extends React.Component {
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/1.png" alt=""/></td>
-                                <td>1</td>
                                 <td>Montpellier Herault</td>
                                 <td className="spec-bg">1</td>
                                 <td>1</td>
@@ -43,12 +42,40 @@ class Tables extends React.Component {
                                 <td>1</td>
                                 <td>1</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
+                                <td className="table-block__lost-matches">
+                                    Home:  45-15  Toulon
+                                    <div className="table-block__info-menu">
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/2.png" alt=""/></td>
-                                <td>1</td>
                                 <td>Lyon</td>
                                 <td className="spec-bg">1</td>
                                 <td>1</td>
@@ -60,12 +87,40 @@ class Tables extends React.Component {
                                 <td>1</td>
                                 <td>1</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
+                                <td className="table-block__lost-matches">
+                                    Home:  45-15  Toulon
+                                    <div className="table-block__info-menu">
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/3.png" alt=""/></td>
-                                <td>1</td>
                                 <td>Castres Olympique</td>
                                 <td className="spec-bg">1</td>
                                 <td>1</td>
@@ -77,12 +132,40 @@ class Tables extends React.Component {
                                 <td>1</td>
                                 <td>1</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
+                                <td className="table-block__lost-matches">
+                                    Home:  45-15  Toulon
+                                    <div className="table-block__info-menu">
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/1.png" alt=""/></td>
-                                <td>1</td>
                                 <td>Stade Toulousain</td>
                                 <td className="spec-bg">1</td>
                                 <td>1</td>
@@ -94,12 +177,40 @@ class Tables extends React.Component {
                                 <td>1</td>
                                 <td>1</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
+                                <td className="table-block__lost-matches">
+                                    Home:  45-15  Toulon
+                                    <div className="table-block__info-menu">
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/1.png" alt=""/></td>
-                                <td>1</td>
                                 <td>Montpellier Herault</td>
                                 <td className="spec-bg">1</td>
                                 <td>1</td>
@@ -111,12 +222,40 @@ class Tables extends React.Component {
                                 <td>1</td>
                                 <td>1</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
+                                <td className="table-block__lost-matches">
+                                    Home:  45-15  Toulon
+                                    <div className="table-block__info-menu">
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/2.png" alt=""/></td>
-                                <td>1</td>
                                 <td>Lyon</td>
                                 <td className="spec-bg">1</td>
                                 <td>1</td>
@@ -128,12 +267,40 @@ class Tables extends React.Component {
                                 <td>1</td>
                                 <td>1</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
+                                <td className="table-block__lost-matches">
+                                    Home:  45-15  Toulon
+                                    <div className="table-block__info-menu">
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/3.png" alt=""/></td>
-                                <td>1</td>
                                 <td>Castres Olympique</td>
                                 <td className="spec-bg">1</td>
                                 <td>1</td>
@@ -145,12 +312,40 @@ class Tables extends React.Component {
                                 <td>1</td>
                                 <td>1</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
+                                <td className="table-block__lost-matches">
+                                    Home:  45-15  Toulon
+                                    <div className="table-block__info-menu">
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/1.png" alt=""/></td>
-                                <td>1</td>
                                 <td>Stade Toulousain</td>
                                 <td className="spec-bg">1</td>
                                 <td>1</td>
@@ -162,7 +357,36 @@ class Tables extends React.Component {
                                 <td>1</td>
                                 <td>1</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
+                                <td className="table-block__lost-matches">
+                                    Home:  45-15  Toulon
+                                    <div className="table-block__info-menu">
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                        <div>
+                                            <div>New Zealand</div>
+                                            <div>28 : 23</div>
+                                            <div>Australia</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>1</td>
                             </tr>
                         </table>

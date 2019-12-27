@@ -26,7 +26,7 @@ class ResultFixturesBlock extends React.Component {
                             <p>RESULT</p>
                         </div>
                         <div className="result-fixtures-block__title-fixtures" onClick={this.showFixtures}>
-                            <p>fixtures</p>
+                            <p>SHEDULE</p>
                         </div>
                     </div>
                     <div className="result-fixtures-block__table__result active">

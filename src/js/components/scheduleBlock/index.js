@@ -28,6 +28,7 @@ class ScheduleBlock extends React.Component {
                             <div className="schedule-section-wrapper__match-center-match">
                                 <div className="tournament-logo">
                                     <img src="img/championship_logo.png" alt="Team logo"/>
+                                    <p className="schedule-section-wrapper__date-match">20 Mon.</p>
                                 </div>
                                 <div className="play-time">
                                     <div className="home-team">
@@ -50,6 +51,7 @@ class ScheduleBlock extends React.Component {
                             <div className="schedule-section-wrapper__match-center-match">
                                 <div className="tournament-logo">
                                     <img src="img/championship_logo.png" alt="Team logo"/>
+                                    <p className="schedule-section-wrapper__date-match">20 Mon.</p>
                                 </div>
                                 <div className="play-time">
                                     <div className="home-team">
@@ -72,6 +74,7 @@ class ScheduleBlock extends React.Component {
                             <div className="schedule-section-wrapper__match-center-match">
                                 <div className="tournament-logo">
                                     <img src="img/championship_logo.png" alt="Team logo"/>
+                                    <p className="schedule-section-wrapper__date-match">20 Mon.</p>
                                 </div>
                                 <div className="play-time">
                                     <div className="home-team">
@@ -94,6 +97,7 @@ class ScheduleBlock extends React.Component {
                             <div className="schedule-section-wrapper__match-center-match">
                                 <div className="tournament-logo">
                                     <img src="img/championship_logo.png" alt="Team logo"/>
+                                    <p className="schedule-section-wrapper__date-match">20 Mon.</p>
                                 </div>
                                 <div className="play-time">
                                     <div className="home-team">
@@ -116,6 +120,7 @@ class ScheduleBlock extends React.Component {
                             <div className="schedule-section-wrapper__match-center-match">
                                 <div className="tournament-logo">
                                     <img src="img/championship_logo.png" alt="Team logo"/>
+                                    <p className="schedule-section-wrapper__date-match">20 Mon.</p>
                                 </div>
                                 <div className="play-time">
                                     <div className="home-team">
@@ -138,6 +143,7 @@ class ScheduleBlock extends React.Component {
                             <div className="schedule-section-wrapper__match-center-match">
                                 <div className="tournament-logo">
                                     <img src="img/championship_logo.png" alt="Team logo"/>
+                                    <p className="schedule-section-wrapper__date-match">20 Mon.</p>
                                 </div>
                                 <div className="play-time">
                                     <div className="home-team">

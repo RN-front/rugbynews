@@ -78,6 +78,13 @@
           img {
             height: 33px;
           }
+
+          .schedule-section-wrapper__date-match {
+            color: $main-seven-text-color;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 10px;
+          }
         }
         .play-time {
           width: 75%;
