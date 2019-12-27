@@ -54,7 +54,7 @@
   }
 
   .header-bottom-section {
-    height: 53px;
+    min-height: 53px;
     width: 100%;
     background-color: $bg-second-color;
     display: flex;
@@ -187,7 +187,19 @@
   }
 }
 
-@media only screen and (max-width: $deviceWidth) {
+@media only screen and (max-width: $tabletWidth) and (min-width: $mobileWidth) {
+  .header {
+    .header-bottom-section-wrapper {
+      flex-wrap: wrap;
+      padding-top: 15px;
+      .header-logo {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $mobileWidth) {
   .header {
     .header-desktop {
       display: none;
