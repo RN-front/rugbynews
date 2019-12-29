@@ -13,7 +13,7 @@
 	}
 }
 
-@media only screen and (max-width: $deviceWidth) {
+@media only screen and (max-width: $tabletWidth) {
 	.newsmakers-section .scroll-newsmakers-block .list-news > div:first-child {
 		min-height: auto;
 		max-height: inherit !important;

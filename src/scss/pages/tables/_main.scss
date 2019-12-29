@@ -1,13 +1,11 @@
 $cmp: ".table-block";
 
 #{$cmp} {
-	padding-top: 105px;
-
 	tr, td {
 		border: 1px solid black;
 	}
 
-	table {
+	&__table  {
 		border-collapse: collapse;
 		border-spacing: 0;
 		width: 100%;
@@ -113,11 +111,38 @@ $cmp: ".table-block";
 			margin-left: -13px;
 		}
 	}
+	&__method-of-calculation {
+		color: $main-text-color;
+		font-size: 12px;
+		font-weight: 400;
+		border: 1px solid #e0e0e0;
+		background-color: #fff4ca;
+		padding: 5px 10px;
+		display: table;
+		margin: 20px auto;
+	}
+
+	&__team-name {
+		font-weight: 700;
+	}
 }
 
-@media only screen and (max-width: $deviceWidth) {
-	.table-block {
-		padding-top: 95px;
+@media #{$mediaTablet} {
+	#{$cmp} {
+		&__hide-device--tablet {
+			display: none;
+		}
+	}
+}
 
+@media #{$mediaMobile} {
+	#{$cmp} {
+		&__hide-device--tablet, &__hide-device--mobile {
+			display: none;
+		}
+
+		.spec-bg {
+			background-color: transparent;
+		}
 	}
 }

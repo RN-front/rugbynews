@@ -6,6 +6,7 @@ import {BrowserRouter} from 'react-router-dom';
 import ScrollToTop from './../modules/scrollToTop';
 import CSSTransitionGroup from "react-addons-css-transition-group";
 
+import CommonJs from "../global/common.js";
 import Homepage from "../pages/homepage/";
 import pageNotFound from "../pages/404/";
 import Header from "../components/header/";

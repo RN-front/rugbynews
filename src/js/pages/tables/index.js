@@ -7,42 +7,41 @@ class Tables extends React.Component {
 
     }
 
-
     render() {
         return (
             <div>
                 <div className="table-block">
                     <div className="container">
-                        <table>
+                        <table className="table-block__table">
                             <tr className="title">
                                 <th colSpan="2">DEY 3</th>
                                 <th className="spec-width">Played</th>
-                                <th className="spec-width">Won</th>
-                                <th className="spec-width">Drawn</th>
-                                <th className="spec-width">Lost</th>
-                                <th className="spec-width">For</th>
-                                <th className="spec-width">Against</th>
-                                <th className="spec-width">Points Delta</th>
-                                <th className="spec-width">Losing Bonus Points</th>
-                                <th className="spec-width">Try Bonus Points</th>
+                                <th className="spec-width table-block__hide-device--mobile">Won</th>
+                                <th className="spec-width table-block__hide-device--mobile">Drawn</th>
+                                <th className="spec-width table-block__hide-device--mobile">Lost</th>
+                                <th className="spec-width table-block__hide-device--tablet table-block__hide-device--mobile">For</th>
+                                <th className="spec-width table-block__hide-device--tablet table-block__hide-device--mobile">Against</th>
+                                <th className="spec-width table-block__hide-device--mobile">Points Delta</th>
+                                <th className="spec-width table-block__hide-device--tablet table-block__hide-device--mobile">Losing Bonus Points</th>
+                                <th className="spec-width table-block__hide-device--mobile">Try Bonus Points</th>
                                 <th className="spec-width">Points</th>
-                                <th>Lost matches</th>
-                                <th>Next matches</th>
+                                <th className="table-block__hide-device--tablet table-block__hide-device--mobile">Lost matches</th>
+                                <th className="table-block__hide-device--tablet table-block__hide-device--mobile">Next matches</th>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/1.png" alt=""/></td>
-                                <td>Montpellier Herault</td>
+                                <td className="table-block__team-name">Montpellier Herault</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
                                 <td className="spec-bg">1</td>
-                                <td className="table-block__lost-matches">
+                                <td className="table-block__lost-matches table-block__hide-device--tablet table-block__hide-device--mobile">
                                     Home:  45-15  Toulon
                                     <div className="table-block__info-menu">
                                         <div>
@@ -72,22 +71,22 @@ class Tables extends React.Component {
                                         </div>
                                     </div>
                                 </td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/2.png" alt=""/></td>
-                                <td>Lyon</td>
+                                <td className="table-block__team-name">Lyon</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
                                 <td className="spec-bg">1</td>
-                                <td className="table-block__lost-matches">
+                                <td className="table-block__lost-matches table-block__hide-device--tablet table-block__hide-device--mobile">
                                     Home:  45-15  Toulon
                                     <div className="table-block__info-menu">
                                         <div>
@@ -117,22 +116,22 @@ class Tables extends React.Component {
                                         </div>
                                     </div>
                                 </td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/3.png" alt=""/></td>
-                                <td>Castres Olympique</td>
+                                <td className="table-block__team-name">Castres Olympique</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
                                 <td className="spec-bg">1</td>
-                                <td className="table-block__lost-matches">
+                                <td className="table-block__lost-matches table-block__hide-device--tablet table-block__hide-device--mobile">
                                     Home:  45-15  Toulon
                                     <div className="table-block__info-menu">
                                         <div>
@@ -162,22 +161,22 @@ class Tables extends React.Component {
                                         </div>
                                     </div>
                                 </td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/1.png" alt=""/></td>
-                                <td>Stade Toulousain</td>
+                                <td className="table-block__team-name">Stade Toulousain</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
                                 <td className="spec-bg">1</td>
-                                <td className="table-block__lost-matches">
+                                <td className="table-block__lost-matches table-block__hide-device--tablet table-block__hide-device--mobile">
                                     Home:  45-15  Toulon
                                     <div className="table-block__info-menu">
                                         <div>
@@ -207,22 +206,22 @@ class Tables extends React.Component {
                                         </div>
                                     </div>
                                 </td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/1.png" alt=""/></td>
-                                <td>Montpellier Herault</td>
+                                <td className="table-block__team-name">Montpellier Herault</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
                                 <td className="spec-bg">1</td>
-                                <td className="table-block__lost-matches">
+                                <td className="table-block__lost-matches table-block__hide-device--tablet table-block__hide-device--mobile">
                                     Home:  45-15  Toulon
                                     <div className="table-block__info-menu">
                                         <div>
@@ -252,22 +251,22 @@ class Tables extends React.Component {
                                         </div>
                                     </div>
                                 </td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/2.png" alt=""/></td>
-                                <td>Lyon</td>
+                                <td className="table-block__team-name">Lyon</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
                                 <td className="spec-bg">1</td>
-                                <td className="table-block__lost-matches">
+                                <td className="table-block__lost-matches table-block__hide-device--tablet table-block__hide-device--mobile">
                                     Home:  45-15  Toulon
                                     <div className="table-block__info-menu">
                                         <div>
@@ -297,22 +296,22 @@ class Tables extends React.Component {
                                         </div>
                                     </div>
                                 </td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/3.png" alt=""/></td>
-                                <td>Castres Olympique</td>
+                                <td className="table-block__team-name">Castres Olympique</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
                                 <td className="spec-bg">1</td>
-                                <td className="table-block__lost-matches">
+                                <td className="table-block__lost-matches table-block__hide-device--tablet table-block__hide-device--mobile">
                                     Home:  45-15  Toulon
                                     <div className="table-block__info-menu">
                                         <div>
@@ -342,22 +341,22 @@ class Tables extends React.Component {
                                         </div>
                                     </div>
                                 </td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
                             </tr>
                             <tr>
                                 <td className="table__img"><img src="img/1.png" alt=""/></td>
-                                <td>Stade Toulousain</td>
+                                <td className="table-block__team-name">Stade Toulousain</td>
                                 <td className="spec-bg">1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
+                                <td className="table-block__hide-device--mobile">1</td>
                                 <td className="spec-bg">1</td>
-                                <td className="table-block__lost-matches">
+                                <td className="table-block__lost-matches table-block__hide-device--tablet table-block__hide-device--mobile">
                                     Home:  45-15  Toulon
                                     <div className="table-block__info-menu">
                                         <div>
@@ -387,9 +386,12 @@ class Tables extends React.Component {
                                         </div>
                                     </div>
                                 </td>
-                                <td>1</td>
+                                <td className="table-block__hide-device--tablet table-block__hide-device--mobile">1</td>
                             </tr>
                         </table>
+                        <div className="table-block__method-of-calculation">
+                                Method of calculation of points  || Won -4 | Dr - 2 | L - 0 | LB - los ≤ 7 pt  | TB - 4 try
+                        </div>
                     </div>
                 </div>
             </div>

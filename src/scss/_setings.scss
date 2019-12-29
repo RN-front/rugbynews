@@ -40,6 +40,10 @@ $main-fourteen-text-color: #757575;
 $main-fifteen-text-color: #596f79;
 
 //Screen widths
-$deviceWidth: 1169px;
 $tabletWidth: 1169px;
-$mobileWidth: 768px;
+$mobileWidth: 767px;
+
+//media
+$mediaDesktop: "only screen and (min-width: "($tabletWidth + 1)")";
+$mediaTablet: "only screen and (max-width: "($tabletWidth)") and (min-width: "($mobileWidth + 1)")";
+$mediaMobile: "only screen and (max-width: "($mobileWidth)")";
