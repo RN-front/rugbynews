@@ -8,6 +8,15 @@ class Header extends React.Component {
         document.querySelector('#app').classList.toggle('menu-opened');
         document.querySelector('.header__navToggle').classList.toggle('navActive');
     }
+
+    componentDidUpdate(prevProps) {
+        if (this.props.location.pathname !== prevProps.location.pathname) {
+            document.querySelector('.navigation-side-mobile').classList.remove('active-nav-mobile');
+            document.querySelector('#app').classList.remove('menu-opened');
+            document.querySelector('.header__navToggle').classList.remove('navActive');
+        }
+    }
+
     // toggleCheck() {
     //     document.querySelector('.header-time-line-section__check div').classList.toggle('checked');
     // }
