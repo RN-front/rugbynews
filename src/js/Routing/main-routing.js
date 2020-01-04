@@ -15,6 +15,7 @@ import VideoNews from "../pages/videonews/";
 import Faq from "../pages/faq/";
 import Tables from "../pages/tables/";
 import Schedule from "../pages/schedule/";
+import Results from "../pages/results/";
 
 
 class MainRouting extends React.Component {
@@ -52,6 +53,7 @@ class MainRouting extends React.Component {
                                 <Route exact path="/video-news" component={VideoNews}/>
                                 <Route exact path="/faq" component={Faq}/>
                                 <Route exact path="/schedule" component={Schedule}/>
+                                <Route exact path="/results" component={Results}/>
                                 <Route exact path="/tables" component={Tables}/>
                                 <Route component={pageNotFound}/>
                             </Switch>

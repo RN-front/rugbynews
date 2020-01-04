@@ -1,5 +1,4 @@
 .faq-block {
-	padding-top: 105px;
 
 	.faq-block__title {
 		border-bottom: 2px solid $bg-second-color;
@@ -107,9 +106,8 @@
 	}
 }
 
-@media only screen and (max-width: $tabletWidth) {
+@media #{$mediaTabletMobile} {
 	.faq-block {
-		padding-top: 95px;
 
 		.faq-block__wrapper {
 			display: flex;
