@@ -34,7 +34,7 @@
   }
 }
 
-@media only screen and (max-width: $tabletWidth) {
+@media #{$mediaMobile} {
   .time-line-section-wrapper {
     display: none;
   }
