@@ -26,7 +26,7 @@ class ResultFixturesBlock extends React.Component {
                             <p>RESULT</p>
                         </div>
                         <div className="result-fixtures-block__title-fixtures" onClick={this.showFixtures}>
-                            <p>SHEDULE</p>
+                            <p>SCHEDULE</p>
                         </div>
                     </div>
                     <div className="result-fixtures-block__table__result active">
@@ -358,7 +358,7 @@ class ResultFixturesBlock extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <Link to='/' className="result-fixtures-block__table-link">All Result <span> &rarr;</span></Link>
+                        <Link to='/schedule' className="result-fixtures-block__table-link">Schedule <span> &rarr;</span></Link>
                     </div>
 
                 </div>

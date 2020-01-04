@@ -47,3 +47,4 @@ $mobileWidth: 767px;
 $mediaDesktop: "only screen and (min-width: "($tabletWidth + 1)")";
 $mediaTablet: "only screen and (max-width: "($tabletWidth)") and (min-width: "($mobileWidth + 1)")";
 $mediaMobile: "only screen and (max-width: "($mobileWidth)")";
+$mediaTabletMobile: "only screen and (max-width: "($tabletWidth)")";

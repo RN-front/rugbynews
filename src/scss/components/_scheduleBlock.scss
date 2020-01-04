@@ -15,25 +15,26 @@ $cmp: ".schedule-section";
 
   &__time-frame {
     display: flex;
+    flex-wrap: nowrap;
     height: 37px;
+  }
 
-    button {
-      color: $main-text-color;
-      font-size: 16px;
-      font-weight: 600;
-      text-transform: uppercase;
-      width: 22%;
-      border: 1px solid $bg-five-color;
+  &__time-frame-button {
+    color: $main-text-color;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 22%;
+    border: 1px solid $bg-five-color;
 
-      &:last-child {
-        width: 34%;
-      }
+    &:last-child {
+      width: 34%;
+    }
 
-      &.active {
-        background-color: $bg-main-color;
-        color: $main-white-text-color;
-        border: 1px solid $bg-main-color;
-      }
+    &.active {
+      background-color: $bg-main-color;
+      color: $main-white-text-color;
+      border: 1px solid $bg-main-color;
     }
   }
 
@@ -84,6 +85,7 @@ $cmp: ".schedule-section";
     margin-bottom: 6px;
     display: flex;
     align-items: center;
+    padding: 0 5px;
   }
 
   &__tournament-logo {
@@ -106,13 +108,21 @@ $cmp: ".schedule-section";
     width: 75%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   &__time {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 15px;
+    width: 30%;
+    justify-content: center;
+  }
 
+  &__versus-time {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     p {
       color: $main-white-text-color;
       font-size: 18px;
@@ -133,7 +143,7 @@ $cmp: ".schedule-section";
 
     p {
       color: $main-fifteen-text-color;
-      font-size: 18px;
+      font-size: 16px;
       text-transform: uppercase;
     }
   }
@@ -141,12 +151,21 @@ $cmp: ".schedule-section";
   &__home-team, &__guest-team {
     display: flex;
     align-items: center;
-
+    width: 35%;
+    justify-content: center;
   }
 
-  &__guest-team-image {
+  &__home-team-image, &__guest-team-image {
     height: 30px;
     margin: 0 10px;
+  }
+
+  &__home-team-name, &__guest-team-name {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 
 }
@@ -159,6 +178,10 @@ $cmp: ".schedule-section";
 
 @media #{$mediaMobile} {
   #{$cmp} {
+    &__match-center-match {
+      height: 85px;
+    }
+
     &__match-center-title {
       div:first-child {
         display: none;
@@ -167,11 +190,32 @@ $cmp: ".schedule-section";
         width: 100%;
       }
     }
+
     &__tournament-logo {
       display: none;
     }
+
     &__play-time {
       width: 100%;
+    }
+
+    &__home-team-image, &__guest-team-image {
+      display: none;
+    }
+
+    &__time {
+      margin: 0 6px;
+      width: 25%;
+    }
+
+    &__time-frame-button {
+      font-size: 14px;
+      width: 100%;
+      padding: 0 5px;
+
+      &:last-child {
+        width: 100%;
+      }
     }
   }
 }

@@ -36,10 +36,10 @@ class ScheduleBlock extends React.Component {
                     <p className="schedule-section__page-title">schedule</p>
                     <div className="schedule-section__wrapper">
                         <div className="schedule-section__time-frame">
-                            <button className="schedule-section__button-day" onClick={this.toggleDate}>Day</button>
-                            <button className="schedule-section__button-week" onClick={this.toggleDate}>Week</button>
-                            <button className="schedule-section__button-month active" onClick={this.toggleDate}>Month</button>
-                            <button>Championship</button>
+                            <button className="schedule-section__time-frame-button schedule-section__button-day" onClick={this.toggleDate}>Day</button>
+                            <button className="schedule-section__time-frame-button schedule-section__button-week" onClick={this.toggleDate}>Week</button>
+                            <button className="schedule-section__time-frame-button schedule-section__button-month active" onClick={this.toggleDate}>Month</button>
+                            <button className="schedule-section__time-frame-button">Championship</button>
                         </div>
                         <div className="schedule-section__date">
                             <p>April</p>
@@ -57,18 +57,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Манчестер</p>
+                                        <p className="schedule-section__home-team-name" title="Ливерпуль">Ливерпуль</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -80,18 +82,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -103,18 +107,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -126,18 +132,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -149,18 +157,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -172,18 +182,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -195,18 +207,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -224,18 +238,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Арсенал</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -247,18 +263,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -270,18 +288,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -293,18 +313,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -316,18 +338,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -339,18 +363,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -362,18 +388,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -391,18 +419,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Манчестер">Манчестер</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -414,18 +444,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -437,18 +469,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -460,18 +494,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -483,18 +519,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -506,18 +544,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>
@@ -529,18 +569,20 @@ class ScheduleBlock extends React.Component {
                                 <div className="schedule-section__play-time">
                                     <div className="schedule-section__home-team">
                                         <img className="schedule-section__home-team-image" src="img/lyon.png" alt="home team logo"/>
-                                        <p className="schedule-section__home-team-name">Ливерпуль</p>
+                                        <p className="schedule-section__home-team-name" title="Арсенал">Арсенал</p>
                                     </div>
                                     <div className="schedule-section__time">
-                                        <p>21</p>
-                                        <p>45</p>
+                                        <div className="schedule-section__versus-time">
+                                            <p>21</p>
+                                            <p>45</p>
+                                        </div>
+                                        <div className="schedule-section__gmt-time">
+                                            <p>18:45&nbsp;GMT</p>
+                                        </div>
                                     </div>
                                     <div className="schedule-section__guest-team">
-                                        <p className="schedule-section__guest-team-name">Ньюкасл</p>
+                                        <p className="schedule-section__guest-team-name" title="Ньюкасл">Ньюкасл</p>
                                         <img className="schedule-section__guest-team-image" src="img/awayjersey.png" alt="guest team logo"/>
-                                    </div>
-                                    <div className="schedule-section__gmt-time">
-                                        <p>18:45 GMT</p>
                                     </div>
                                 </div>
                             </div>

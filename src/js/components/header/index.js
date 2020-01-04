@@ -84,7 +84,7 @@ class Header extends React.Component {
                                             </ul>
                                         </li>
                                         <li>
-                                            <Link to='/schedule'>SHEDULE</Link>
+                                            <Link to='/schedule'>SCHEDULE</Link>
                                         </li>
                                         <li>
                                             <Link to='/'>RESULTS</Link>
@@ -164,7 +164,7 @@ class Header extends React.Component {
                                             </ul>
                                         </li>
                                         <li>
-                                            <Link to='/schedule'>SHEDULE</Link>
+                                            <Link to='/schedule'>SCHEDULE</Link>
                                         </li>
                                         <li>
                                             <Link to='/'>RESULTS</Link>

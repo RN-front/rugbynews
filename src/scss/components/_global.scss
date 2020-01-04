@@ -3,13 +3,13 @@
   max-width: 1170px;
   margin: 0 auto;
 
-  @media only screen and (max-width: $tabletWidth) and (min-width: $mobileWidth) {
+  @media #{$mediaTablet} {
     width: 100%;
     max-width: 708px;
     margin: 0 auto;
   }
 
-  @media only screen and (max-width: $mobileWidth) {
+  @media #{$mediaMobile} {
     width: 100%;
     max-width: 960px;
     padding: 0 15px;
@@ -27,7 +27,7 @@ body {
 .site {
   padding-top: 110px;
 
-  @media  #{$mediaTablet} {
+  @media #{$mediaTablet} {
     padding-top: 140px;
   }
 
@@ -41,7 +41,7 @@ body {
   position: inherit;
   height: auto;
   width: 100%;
-  @media only screen and (max-width: $tabletWidth) {
+  @media #{$mediaMobile} {
       overflow: hidden;
       position: fixed;
       height: 100%;
