@@ -1,0 +1,34 @@
+$cmp: ".schedule-section";
+
+#{$cmp} {
+  &--result-block {
+    #{$cmp}__versus-time {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      p {
+        color: $main-white-text-color;
+        font-size: 18px;
+        background-color: $bg-seven-color;
+        padding: 6px;
+
+        &:first-child {
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$mediaTablet} {
+  #{$cmp} {
+
+  }
+}
+
+@media #{$mediaMobile} {
+  #{$cmp} {
+
+  }
+}
+

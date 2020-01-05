@@ -1,5 +1,5 @@
 import React from "react";
-import ScheduleBlock from "../../components/scheduleBlock";
+import ResultsBlock from "../../components/resultsBlock";
 import TopRatingNews from "../../components/topRatingNews";
 import ResultFixturesBlock from "../../components/resultFixturesBlock";
 
@@ -16,7 +16,7 @@ class Results extends React.Component {
                     <div className="container">
                         <div className="main-section-wrapper">
                             <div className="news-section">
-                                <ScheduleBlock/>
+                                <ResultsBlock/>
                             </div>
                             <div className="table-right-section">
                                 <TopRatingNews/>

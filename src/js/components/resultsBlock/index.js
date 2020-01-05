@@ -32,7 +32,7 @@ class ScheduleBlock extends React.Component {
     render() {
         return (
             <div>
-                <div className="schedule-section">
+                <div className="schedule-section schedule-section--result-block">
                     <p className="schedule-section__page-title">schedule</p>
                     <div className="schedule-section__wrapper">
                         <div className="schedule-section__time-frame">
@@ -61,8 +61,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -86,8 +86,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -111,8 +111,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -136,8 +136,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -161,8 +161,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -186,8 +186,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -211,8 +211,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -242,8 +242,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -267,8 +267,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -292,8 +292,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>33</p>
+                                            <p>38</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -317,8 +317,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -342,8 +342,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -367,8 +367,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -392,8 +392,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -423,8 +423,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -448,8 +448,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -473,8 +473,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -498,8 +498,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -523,8 +523,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -548,8 +548,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>22</p>
+                                            <p>29</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
@@ -573,8 +573,8 @@ class ScheduleBlock extends React.Component {
                                     </div>
                                     <div className="schedule-section__time">
                                         <div className="schedule-section__versus-time">
-                                            <p>-</p>
-                                            <p>-</p>
+                                            <p>12</p>
+                                            <p>18</p>
                                         </div>
                                         <div className="schedule-section__gmt-time">
                                             <p>18:45&nbsp;GMT</p>
