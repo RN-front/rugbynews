@@ -1,14 +1,21 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {Scrollbars} from "react-custom-scrollbars";
+import moment from 'moment-jalaali'
+import DatePicker from 'react-datepicker2';
 
 class ScheduleBlock extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { value: moment() };
+    }
+
     componentDidMount(){
 
     }
 
     toggleDate(e) {
-        let dateButton = document.querySelectorAll(".schedule-section__time-frame button");
+        let dateButton = document.querySelectorAll(".schedule-section__time-frame-button");
         let matchCenterBlock = document.querySelectorAll(".schedule-section__match-center");
         for (let i = 0; i < dateButton.length; i++) {
             dateButton[i].classList.remove("active");
@@ -36,7 +43,15 @@ class ScheduleBlock extends React.Component {
                     <p className="schedule-section__page-title">schedule</p>
                     <div className="schedule-section__wrapper">
                         <div className="schedule-section__time-frame">
-                            <button className="schedule-section__time-frame-button schedule-section__button-day" onClick={this.toggleDate}>Day</button>
+                            {/*<button className="schedule-section__time-frame-button schedule-section__button-day" onClick={this.toggleDate}>*/}
+                                <div className="schedule-section__time-frame-button schedule-section__button-day" onClick={this.toggleDate}>
+                                    <DatePicker
+                                                timePicker={false}
+                                                onChange={value => this.setState({ value })}
+                                                value={this.state.value}
+                                    />
+                                </div>
+                            {/*</button>*/}
                             <button className="schedule-section__time-frame-button schedule-section__button-week" onClick={this.toggleDate}>Week</button>
                             <button className="schedule-section__time-frame-button schedule-section__button-month active" onClick={this.toggleDate}>Month</button>
                             <button className="schedule-section__time-frame-button">Championship</button>

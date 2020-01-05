@@ -1,0 +1,16 @@
+.tether-element {
+	left: 58px!important;
+	z-index: 98!important;
+}
+
+@media #{$mediaTablet} {
+	.tether-element {
+		left: 72px!important;
+	}
+}
+
+@media #{$mediaMobile} {
+	.tether-element {
+		left: 110px!important;
+	}
+}
