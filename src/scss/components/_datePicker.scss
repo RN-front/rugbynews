@@ -28,3 +28,19 @@
 		width: 100%;
 	}
 }
+
+/* react-select custom styles */
+
+.schedule-section__custom-select {
+	.css-yk16xz-control, .css-1pahdxg-control {
+		width: 100%;
+		height: 100%;
+		border-radius: 0;
+		border: none;
+		outline: none;
+		min-height: auto;
+		&:hover {
+			border-color: transparent;
+		}
+	}
+}

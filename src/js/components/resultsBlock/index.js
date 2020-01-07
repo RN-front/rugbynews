@@ -1,8 +1,32 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {Scrollbars} from "react-custom-scrollbars";
+import 'react-day-picker/lib/style.css';
+import DayPickerInput from 'react-day-picker/DayPickerInput';
+import MomentLocaleUtils, {
+    formatDate,
+    parseDate,
+} from 'react-day-picker/moment';
+import Select from 'react-select';
+const options = [
+    { value: 'chocolate', label: 'Chocolate' },
+    { value: 'strawberry', label: 'Strawberry' },
+    { value: 'vanilla', label: 'Vanilla' },
+];
 
 class ScheduleBlock extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            selectedOption: null,
+        };
+        this.handleChange = selectedOption => {
+            this.setState(
+                { selectedOption },
+                () => console.log(`Option selected:`, this.state.selectedOption)
+            );
+        };
+    }
     componentDidMount(){
 
     }
@@ -30,16 +54,30 @@ class ScheduleBlock extends React.Component {
 
 
     render() {
+        const { selectedOption } = "this.state";
         return (
             <div>
                 <div className="schedule-section schedule-section--result-block">
                     <p className="schedule-section__page-title">schedule</p>
                     <div className="schedule-section__wrapper">
                         <div className="schedule-section__time-frame">
-                            <button className="schedule-section__time-frame-button schedule-section__button-day" onClick={this.toggleDate}>Day</button>
+                            <div className="schedule-section__time-frame-button schedule-section__button-day" onClick={this.toggleDate}>
+                                <DayPickerInput
+                                    formatDate={formatDate}
+                                    parseDate={parseDate}
+                                    placeholder={`${formatDate(new Date())}`}
+                                />
+                            </div>
                             <button className="schedule-section__time-frame-button schedule-section__button-week" onClick={this.toggleDate}>Week</button>
                             <button className="schedule-section__time-frame-button schedule-section__button-month active" onClick={this.toggleDate}>Month</button>
-                            <button className="schedule-section__time-frame-button">Championship</button>
+                            <div className="schedule-section__time-frame-button" onClick={this.toggleDate}>
+                                <Select className="schedule-section__custom-select"
+                                        placeholder={'CHAMPIONSHIP'}
+                                        value={selectedOption}
+                                        onChange={this.handleChange}
+                                        options={options}
+                                />
+                            </div>
                         </div>
                         <div className="schedule-section__date">
                             <p>April</p>

@@ -7,8 +7,28 @@ import MomentLocaleUtils, {
     formatDate,
     parseDate,
 } from 'react-day-picker/moment';
+import Select from 'react-select';
+const options = [
+    { value: 'chocolate', label: 'Chocolate' },
+    { value: 'strawberry', label: 'Strawberry' },
+    { value: 'vanilla', label: 'Vanilla' },
+];
 
 class ScheduleBlock extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            selectedOption: null,
+        };
+        this.handleChange = selectedOption => {
+            this.setState(
+                { selectedOption },
+                () => console.log(`Option selected:`, this.state.selectedOption)
+            );
+        };
+    }
+
+
     componentDidMount(){
 
     }
@@ -36,6 +56,7 @@ class ScheduleBlock extends React.Component {
 
 
     render() {
+        const { selectedOption } = "this.state";
         return (
             <div>
                 <div className="schedule-section">
@@ -51,7 +72,14 @@ class ScheduleBlock extends React.Component {
                             </div>
                             <button className="schedule-section__time-frame-button schedule-section__button-week" onClick={this.toggleDate}>Week</button>
                             <button className="schedule-section__time-frame-button schedule-section__button-month active" onClick={this.toggleDate}>Month</button>
-                            <button className="schedule-section__time-frame-button">Championship</button>
+                            <div className="schedule-section__time-frame-button" onClick={this.toggleDate}>
+                                <Select className="schedule-section__custom-select"
+                                    placeholder={'CHAMPIONSHIP'}
+                                    value={selectedOption}
+                                    onChange={this.handleChange}
+                                    options={options}
+                                />
+                            </div>
                         </div>
                         <div className="schedule-section__date">
                             <p>April</p>
