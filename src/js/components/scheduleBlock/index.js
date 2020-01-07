@@ -1,8 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {Scrollbars} from "react-custom-scrollbars";
-// import DatePicker from 'react-datepicker2';
-// import 'react-day-picker/lib/style.css';
+import 'react-day-picker/lib/style.css';
 import DayPickerInput from 'react-day-picker/DayPickerInput';
 import MomentLocaleUtils, {
     formatDate,
@@ -10,11 +9,6 @@ import MomentLocaleUtils, {
 } from 'react-day-picker/moment';
 
 class ScheduleBlock extends React.Component {
-    constructor(props) {
-        super(props);
-        // this.state = { value: moment() };
-    }
-
     componentDidMount(){
 
     }

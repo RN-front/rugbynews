@@ -43,7 +43,7 @@ module.exports = (env, options) => {
                     },
                 },
                 {
-                    test: /\.scss$/,
+                    test: /\.(scss|css)$/,
                     use: ExtractTextPlugin.extract({
                         fallback: "style-loader",
                         use: devMode ? [
