@@ -57,7 +57,8 @@ class Header extends React.Component {
                             <div className="container">
                                 <div className="header__wrapper">
                                     <div className="header__language-feeds-wrapper">
-                                        <Select  className="header__language-feeds"
+                                        <Select  className="basic-single header__language-feeds"
+                                                 classNamePrefix="header__select"
                                              styles={customStyles}
                                              options={this.options}
                                              defaultValue={{ label: 'English', value: 'english' }}

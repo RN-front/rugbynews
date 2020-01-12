@@ -203,18 +203,23 @@ $cmp: ".header";
     display: none;
   }
 
-  .css-1hwfws3, .css-1hb7zxy-IndicatorsContainer {
+  &__select__value-container, &__select__indicators {
     height: 20px;
   }
 
-  .css-1okebmr-indicatorSeparator {
-    margin: 0 0 1px 0;
+  &__select__indicator-separator {
+    margin-top: 0!important;
+    margin-bottom: 1px!important;
   }
-
-  .css-b8ldur-Input {
+  &__select__value-container > div:last-child {
     margin: 0 2px;
     padding-bottom: 0;
     padding-top: 0;
+  }
+  .css-b8ldur-Input {
+    //margin: 0 2px;
+    //padding-bottom: 0;
+    //padding-top: 0;
   }
 }
 
