@@ -8,26 +8,19 @@ import MomentLocaleUtils, {
     parseDate,
 } from 'react-day-picker/moment';
 import Select from 'react-select';
-const options = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' },
-];
 
 class ScheduleBlock extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedOption: null,
+            value: { label: this.props.val, value: this.props.val },
         };
-        this.handleChange = selectedOption => {
-            this.setState(
-                { selectedOption },
-                () => console.log(`Option selected:`, this.state.selectedOption)
-            );
-        };
+        this.options = [
+            { label: 'Championship', value: 'championship' },
+            { label: 'England league', value: 'england-league' },
+            { label: 'USA league', value: 'usa-league' },
+        ]
     }
-
 
     componentDidMount(){
 
@@ -56,7 +49,6 @@ class ScheduleBlock extends React.Component {
 
 
     render() {
-        const { selectedOption } = "this.state";
         return (
             <div>
                 <div className="schedule-section">
@@ -74,10 +66,8 @@ class ScheduleBlock extends React.Component {
                             <button className="schedule-section__time-frame-button schedule-section__button-month active" onClick={this.toggleDate}>Month</button>
                             <div className="schedule-section__time-frame-button" onClick={this.toggleDate}>
                                 <Select className="schedule-section__custom-select"
-                                    placeholder={'CHAMPIONSHIP'}
-                                    value={selectedOption}
-                                    onChange={this.handleChange}
-                                    options={options}
+                                    options={this.options}
+                                    defaultValue={{  label: 'Championship', value: 'championship'  }}
                                 />
                             </div>
                         </div>

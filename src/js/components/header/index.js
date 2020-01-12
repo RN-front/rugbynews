@@ -1,7 +1,18 @@
 import React from "react";
 import {Link, Redirect} from 'react-router-dom';
-
+import Select from 'react-select';
 class Header extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            value: { label: this.props.val, value: this.props.val },
+        };
+        this.options = [
+            { label: 'English', value: 'english' },
+            { label: 'Русский', value: 'russian' },
+        ]
+    }
 
     toggleMobMenu() {
         document.querySelector('.header__device-navigation-side-mobile').classList.toggle('active-nav-mobile');
@@ -29,6 +40,15 @@ class Header extends React.Component {
     }
 
     render() {
+        const customStyles = {
+            control: (base, state) => ({
+                ...base,
+                height: '20px',
+                'min-height': '20px',
+                'box-shadow' : 'none',
+                'border-color' : 'transparent',
+            }),
+        };
         return (
             <div>
                 <header className="header">
@@ -37,14 +57,12 @@ class Header extends React.Component {
                             <div className="container">
                                 <div className="header__wrapper">
                                     <div className="header__language-feeds-wrapper">
-                                        <label htmlFor="" className="label__language-feeds">
-                                            <select name="" id="">
-                                                <option value="" selected disabled hidden>Language Feeds</option>
-                                                <option value="">English</option>
-                                                <option value="">Русский</option>
-                                            </select>
-                                            <img src="img/english_flag.png" className="country-image" alt="country logo"/>
-                                        </label>
+                                        <Select  className="header__language-feeds"
+                                             styles={customStyles}
+                                             options={this.options}
+                                             defaultValue={{ label: 'English', value: 'english' }}
+                                        />
+                                        <img src="img/english_flag.png" className="country-image" alt="country logo"/>
                                     </div>
                                     <div className="header__add-your-feeds">
                                         <button>Add Your Feeds <img src="img/add.png" alt="Add Feeds"/></button>

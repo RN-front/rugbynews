@@ -38,6 +38,8 @@ $cmp: ".schedule-section";
       background-color: $bg-main-color;
       border: 1px solid $bg-main-color;
 
+      /* DayPicker custom styles */
+
       .DayPickerInput > input {
         background-color: $bg-main-color;
         color: $main-white-text-color;
@@ -45,6 +47,15 @@ $cmp: ".schedule-section";
         &::-webkit-input-placeholder {
           color: $main-white-text-color;
         }
+      }
+
+      /* react-select custom styles */
+
+      .css-1uccc91-singleValue, .css-1wa3eu0-placeholder {
+        color: $main-white-text-color;
+      }
+      .css-b8ldur-Input, .css-1hwfws3, .css-1pahdxg-control, .css-yk16xz-control {
+        background-color: $bg-main-color;
       }
     }
   }
